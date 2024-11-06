@@ -40,9 +40,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category">
+                  <Link href="#" className="category">
                     Medical
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-1.jpg"
                     alt="blog img"
@@ -50,9 +50,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur ipsum.
@@ -71,9 +71,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category blue">
+                  <Link href="#" className="category blue">
                     Hospital
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-2.jpg"
                     alt="blog img"
@@ -81,9 +81,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     Doccure – Making your clinic painless visit
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur amet.
@@ -102,9 +102,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category red">
+                  <Link href="#" className="category red">
                     Doctor
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-3.jpg"
                     alt="blog img"
@@ -112,9 +112,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     What are the benefits of Online Doctor Booking
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur.
@@ -133,9 +133,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category red">
+                  <Link href="#" className="category red">
                     Doctor
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-6.jpg"
                     alt="blog img"
@@ -143,9 +143,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     What are the benefits of Online Doctor Booking
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur.
@@ -164,9 +164,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category">
+                  <Link href="#" className="category">
                     Medical
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-4.jpg"
                     alt="blog img"
@@ -174,9 +174,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur ipsum.
@@ -195,9 +195,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category blue">
+                  <Link href="#" className="category blue">
                     Hospital
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-5.jpg"
                     alt="blog img"
@@ -205,9 +205,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     Doccure – Making your clinic painless visit
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur amet.
@@ -226,9 +226,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category">
+                  <Link href="#" className="category">
                     Medical
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-7.jpg"
                     alt="blog img"
@@ -236,9 +236,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur ipsum.
@@ -257,9 +257,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category blue">
+                  <Link href="#" className="category blue">
                     Hospital
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-5.jpg"
                     alt="blog img"
@@ -267,9 +267,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     Doccure – Making your clinic painless visit
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur amet.
@@ -288,9 +288,9 @@ const MainBlogPage = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category red">
+                  <Link href="#" className="category red">
                     Doctor
-                  </a>
+                  </Link>
                   <img
                     src="images/blog-3.jpg"
                     alt="blog img"
@@ -298,9 +298,9 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-                  <a href="blog-detail" className="blog_heading">
+                  <Link href="blog-detail" className="blog_heading">
                     What are the benefits of Online Doctor Booking
-                  </a>
+                  </Link>
                   <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing.
                     Veritatis consectetur.
