@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HelpLine = () => {
@@ -119,9 +120,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Neurology</p>
                   <span>MBBS, FCPS, FRCS</span>
-                  <a href="doctor_details.html">
-                    <i className="fal fa-plus" />
-                  </a>
+                    <Link href="/appointment">
+                        <i className="fal fa-plus" />
+                      </Link>
                 </div>
               </div>
             </div>
@@ -165,9 +166,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Cardiology</p>
                   <span>MBBS, FCPS, FRCS</span>
-                  <a href="doctor_details.html">
-                    <i className="fal fa-plus" />
-                  </a>
+                    <Link href="/appointment">
+                        <i className="fal fa-plus" />
+                      </Link>
                 </div>
               </div>
             </div>
@@ -211,9 +212,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Ophthalmology</p>
                   <span>MBBS, FCPS, FRCS</span>
-                  <a href="doctor_details.html">
-                    <i className="fal fa-plus" />
-                  </a>
+                    <Link href="/appointment">
+                        <i className="fal fa-plus" />
+                      </Link>
                 </div>
               </div>
             </div>
@@ -257,17 +258,17 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Pediatric</p>
                   <span>MBBS, FCPS, FRCS</span>
-                  <a href="doctor_details.html">
-                    <i className="fal fa-plus" />
-                  </a>
+                    <Link href="/appointment">
+                        <i className="fal fa-plus" />
+                      </Link>
                 </div>
               </div>
             </div>
-            <div className="col-12 text-center mt_40">
+            {/* <div className="col-12 text-center mt_40">
               <a className="common_btn" href="doctor.html">
                 view more
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

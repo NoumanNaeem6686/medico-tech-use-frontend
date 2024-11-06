@@ -1012,31 +1012,11 @@ button:focus {
     font-family: var(--paraFont);
     width: 50%;
     position: relative;
-    padding-left: 33px;
+    padding-left: 13px;
     margin-bottom: 18px;
 }
 
-.about_iteam li::after {
-    position: absolute;
-    content: "\f00c";
-    color: var(--colorWhite);
-    font-family: "Font Awesome 5 Free";
-    font-weight: 600;
-    top: 2px;
-    left: 0;
-    width: 23px;
-    height: 23px;
-    line-height: 24px;
-    text-align: center;
-    font-size: 11px;
-    border-radius: 50%;
-    background: var(--colorPrimary);
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-    -o-transition: all linear .3s;
-}
+
 
 /* about end */
 

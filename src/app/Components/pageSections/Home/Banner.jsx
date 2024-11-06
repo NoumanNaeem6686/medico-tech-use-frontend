@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
 
@@ -22,9 +23,9 @@ const Banner = () => {
                   It is a established fact that a reader will be distracted by
                   the content of a page when looking at this layout.
                 </p>
-                <a href="doctor.html" className="common_btn">
-                  meet a doctor
-                </a>
+                <Link href="/free-audit" className="common_btn">
+                  Free Audit Yourself
+                </Link>
                 <ul className="banner_counter d-flex flex-wrap">
                   <li>
                     <h3>

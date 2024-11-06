@@ -1,5 +1,6 @@
 import React from "react";
 import AboutOurCompany from "./AboutOurCompany";
+import Link from "next/link";
 
 const MainAboutUs = () => {
   return (
@@ -16,7 +17,7 @@ const MainAboutUs = () => {
                   <h1>About Us</h1>
                   <ul>
                     <li>
-                      <a href="#">Home</a>
+                      <Link href="#">Home</Link>
                     </li>
                     <li>About Us</li>
                   </ul>
@@ -53,14 +54,14 @@ const MainAboutUs = () => {
                         alt="about img"
                         className="img-fluid w-100"
                       />
-                      <a
+                      <Link
                         className="play_btn venobox"
                         data-autoplay="true"
                         data-vbtype="video"
                         href="https://youtu.be/nqye02H_H6I"
                       >
                         <i className="fas fa-play" aria-hidden="true" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -86,9 +87,9 @@ const MainAboutUs = () => {
                     <li>On duty Doctors</li>
                     <li>24/7 Medical Emergency</li>
                   </ul>
-                  <a href="about.html" className="common_btn">
-                    Discover More
-                  </a>
+                  <Link href="/appointment" className="common_btn">
+                    Get Appointment
+                  </Link>
                 </div>
               </div>
             </div>
@@ -250,24 +251,24 @@ const MainAboutUs = () => {
                       <div className="team_overlay">
                         <ul className="team_icon">
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-facebook-f" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-twitter" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-whatsapp" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -276,9 +277,9 @@ const MainAboutUs = () => {
                       <h6>Dr. Jon Miller</h6>
                       <p>Neurology</p>
                       <span>MBBS, FCPS, FRCS</span>
-                      <a href="doctor_details.html">
+                      <Link href="/appointment">
                         <i className="fal fa-plus" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -296,24 +297,24 @@ const MainAboutUs = () => {
                       <div className="team_overlay">
                         <ul className="team_icon">
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-facebook-f" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-twitter" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-whatsapp" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -322,9 +323,9 @@ const MainAboutUs = () => {
                       <h6>Dr. Jon Miller</h6>
                       <p>Cardiology</p>
                       <span>MBBS, FCPS, FRCS</span>
-                      <a href="doctor_details.html">
+                      <Link href="/appointment">
                         <i className="fal fa-plus" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -342,24 +343,24 @@ const MainAboutUs = () => {
                       <div className="team_overlay">
                         <ul className="team_icon">
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-facebook-f" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-twitter" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-whatsapp" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -368,9 +369,9 @@ const MainAboutUs = () => {
                       <h6>Dr. Jon Miller</h6>
                       <p>Ophthalmology</p>
                       <span>MBBS, FCPS, FRCS</span>
-                      <a href="doctor_details.html">
+                      <Link href="/appointment">
                         <i className="fal fa-plus" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -388,24 +389,24 @@ const MainAboutUs = () => {
                       <div className="team_overlay">
                         <ul className="team_icon">
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-facebook-f" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-twitter" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-whatsapp" />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">
+                            <Link href="#">
                               <i className="fab fa-linkedin-in" />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -414,17 +415,17 @@ const MainAboutUs = () => {
                       <h6>Dr. Jon Miller</h6>
                       <p>Pediatric</p>
                       <span>MBBS, FCPS, FRCS</span>
-                      <a href="doctor_details.html">
+                      <Link href="/appointment">
                         <i className="fal fa-plus" />
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
-                <div className="col-12 text-center mt_40">
-                  <a className="common_btn" href="doctor.html">
+                {/* <div className="col-12 text-center mt_40">
+                  <Link className="common_btn" href="doctor.html">
                     view more
-                  </a>
-                </div>
+                  </Link>
+                </div> */}
               </div>
             </div>
           </div>
@@ -457,7 +458,7 @@ const MainAboutUs = () => {
                       </span>
                       <div className="helpline_contact_text">
                         <p>Phone Number</p>
-                        <a href="callto:123456789">+880 13 2525 065</a>
+                        <Link href="callto:123456789">+880 13 2525 065</Link>
                       </div>
                     </li>
                     <li>
@@ -466,9 +467,9 @@ const MainAboutUs = () => {
                       </span>
                       <div className="helpline_contact_text">
                         <p>Quick Your Email</p>
-                        <a href="mailto:example@gmail.com">
+                        <Link href="mailto:example@gmail.com">
                           help.info@gmail.com
-                        </a>
+                        </Link>
                       </div>
                     </li>
                   </ul>
@@ -505,9 +506,9 @@ const MainAboutUs = () => {
                 >
                   <div className="single_blog">
                     <div className="blog_img">
-                      <a href="#" className="category">
+                      <Link href="#" className="category">
                         Medical
-                      </a>
+                      </Link>
                       <img
                         src="images/blog-1.jpg"
                         alt="blog img"
@@ -525,18 +526,18 @@ const MainAboutUs = () => {
                           22 june 2023
                         </li>
                       </ul>
-                      <a href="blog_details.html" className="blog_heading">
+                      <Link href="blog-detail" className="blog_heading">
                         Telehealth Services Are Ready To Help Your Family
-                      </a>
+                      </Link>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                         Veritatis consectetur ipsum.
                       </p>
                       <div className="blog_text_icon">
-                        <a className="blog_link" href="blog_details.html">
+                        <Link className="blog_link" href="blog-detail">
                           read more <i className="far fa-long-arrow-right" />
-                        </a>
-                        <ul className="d-flex flex-wrap blog_react">
+                        </Link>
+                        {/* <ul className="d-flex flex-wrap blog_react">
                           <li>
                             <i className="fas fa-comment-lines" />5
                           </li>
@@ -548,7 +549,7 @@ const MainAboutUs = () => {
                             <i className="fas fa-share-alt" />
                             15
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>
@@ -559,9 +560,9 @@ const MainAboutUs = () => {
                 >
                   <div className="single_blog">
                     <div className="blog_img">
-                      <a href="#" className="category blue">
+                      <Link href="#" className="category blue">
                         Hospital
-                      </a>
+                      </Link>
                       <img
                         src="images/blog-2.jpg"
                         alt="blog img"
@@ -579,18 +580,18 @@ const MainAboutUs = () => {
                           22 june 2023
                         </li>
                       </ul>
-                      <a href="blog_details.html" className="blog_heading">
+                      <Link href="blog-detail" className="blog_heading">
                         Doccure – Making your clinic painless visit
-                      </a>
+                      </Link>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                         Veritatis consectetur amet.
                       </p>
                       <div className="blog_text_icon">
-                        <a className="blog_link" href="blog_details.html">
+                        <Link className="blog_link" href="blog-detail">
                           read more <i className="far fa-long-arrow-right" />
-                        </a>
-                        <ul className="d-flex flex-wrap blog_react">
+                        </Link>
+                        {/* <ul className="d-flex flex-wrap blog_react">
                           <li>
                             <i className="fas fa-comment-lines" />5
                           </li>
@@ -602,7 +603,7 @@ const MainAboutUs = () => {
                             <i className="fas fa-share-alt" />
                             15
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>
@@ -613,9 +614,9 @@ const MainAboutUs = () => {
                 >
                   <div className="single_blog">
                     <div className="blog_img">
-                      <a href="#" className="category red">
+                      <Link href="#" className="category red">
                         Doctor
-                      </a>
+                      </Link>
                       <img
                         src="images/blog-3.jpg"
                         alt="blog img"
@@ -633,18 +634,18 @@ const MainAboutUs = () => {
                           22 june 2023
                         </li>
                       </ul>
-                      <a href="blog_details.html" className="blog_heading">
+                      <Link href="blog-detail" className="blog_heading">
                         What are the benefits of Online Doctor Booking
-                      </a>
+                      </Link>
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing.
                         Veritatis consectetur.
                       </p>
                       <div className="blog_text_icon">
-                        <a className="blog_link" href="blog_details.html">
+                        <Link className="blog_link" href="blog-detail">
                           read more <i className="far fa-long-arrow-right" />
-                        </a>
-                        <ul className="d-flex flex-wrap blog_react">
+                        </Link>
+                        {/* <ul className="d-flex flex-wrap blog_react">
                           <li>
                             <i className="fas fa-comment-lines" />5
                           </li>
@@ -656,7 +657,7 @@ const MainAboutUs = () => {
                             <i className="fas fa-share-alt" />
                             15
                           </li>
-                        </ul>
+                        </ul> */}
                       </div>
                     </div>
                   </div>

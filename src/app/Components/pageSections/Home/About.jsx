@@ -57,12 +57,13 @@ const About = () => {
                   </p>
                 </div>
                 <ul className="about_iteam d-flex flex-wrap">
-                  <li>Ambulance Services</li>
-                  <li>Oxizen on Wheel</li>
-                  <li>Pharmacy on Clinic</li>
-                  <li>On duty Doctors</li>
-                  <li>24/7 Medical Emergency</li>
+                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> Ambulance Services</li>
+                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> Oxygen on Wheel</li>
+                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> Pharmacy on Clinic</li>
+                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> On duty Doctors</li>
+                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> 24/7 Medical Emergency</li>
                 </ul>
+
                 <a href="about.html" className="common_btn">
                   Discover More
                 </a>
