@@ -17,7 +17,7 @@ const MakeAuditForm = () => {
                 >
                   <div className="appoinment_form">
                     <div className="common_heading mb_30">
-                      <h5>Appointment</h5>
+                      <h5>Audit</h5>
                       <h2>Apply For Free Now</h2>
                     </div>
                     <form action="#">

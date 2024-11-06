@@ -30,14 +30,14 @@ const AuditHeroSection = () => {
                   Contrary to popular belief, Lorem Ipsum is not simply random
                   text It has roots in a piece of classical.
                 </p>
-                <div className="button_group">
+                {/* <div className="button_group">
                   <a href="appointment.html" className="common_btn">
                     Get Appointment
                   </a>
                   <a href="appointment.html" className="common_btn read_more">
                     Read More
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

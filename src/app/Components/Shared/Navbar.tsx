@@ -32,10 +32,10 @@ const Navbar = () => {
             >
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
-                  <a className="nav-link active" href="/">
+                  <Link className="nav-link active" href="/">
                     Home 
                     {/* <i className="far fa-plus" /> */}
-                  </a>
+                  </Link>
                   {/* <ul className="dropdown">
                     <li>
                       <a className="active" href="index.html">

@@ -1842,10 +1842,10 @@ button:focus {
     color: var(--colorWhite);
     margin-top: 4px;
     position: relative;
-    padding-left: 25px;
+    padding-left: 2px;
 }
 
-.team_designation span::after {
+/* .team_designation span::after {
     position: absolute;
     content: "\f19d";
     font-family: "font awesome 5 free";
@@ -1853,7 +1853,7 @@ button:focus {
     font-weight: 600;
     top: -1px;
     left: 0;
-}
+} */
 
 .team_designation a {
     position: absolute;
@@ -3472,7 +3472,7 @@ button:focus {
 
 .banner_3 {
     position: relative;
-    height: 803px;
+    height: 603px;
     margin-top: 70px;
 }
 
