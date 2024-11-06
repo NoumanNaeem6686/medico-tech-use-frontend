@@ -144,7 +144,7 @@ const Navbar = () => {
                 </li> */}
                 <li>
                   <Link href="/appointment" className="common_btn">
-                    Appointment
+                    Meeting
                   </Link>
                 </li>
               </ul>

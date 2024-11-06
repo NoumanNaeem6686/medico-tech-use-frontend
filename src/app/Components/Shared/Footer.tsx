@@ -15,7 +15,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12 wow fadeInUp" data-wow-duration="1s">
-              <div className="subscription">
+              {/* <div className="subscription">
                 <div className="row justify-content-between align-items-center">
                   <div className="col-xxl-6 col-lg-6 col-xl-7">
                     <div className="subscribe_text">
@@ -31,10 +31,10 @@ const Footer = () => {
                     </form>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="row mt_10">
+          <div className="row mt_10 pt-5">
             <div className="col-lg-3 col-sm-9 col-md-6">
               <div className="footer_left">
                 <Link href="/" className="tf_footer_logo">
