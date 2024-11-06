@@ -20,7 +20,7 @@ const Testimonials = () => {
         <Swiper
           modules={[Pagination]}
           spaceBetween={30}
-          slidesPerView={3}
+          slidesPerView={1}
           pagination={{ clickable: true }}
           breakpoints={{
             1024: { slidesPerView: 3 },

@@ -245,7 +245,12 @@ button:focus {
     padding: 270px 0px 165px;
     position: relative;
 }
-
+@media screen and (max-width: 767px) {
+    .breadcrumb {
+        padding: 150px 0px 100px;
+    }
+    
+}
 .breadcrumb::after {
     position: absolute;
     content: "";
@@ -781,7 +786,12 @@ button:focus {
     position: relative;
     overflow: hidden;
 }
-
+@media (max-width: 767px) {
+    .banner {
+        height: 100%;
+    }
+    
+}
 .banner div {
     /* height: 100%; */
 }
@@ -823,7 +833,12 @@ button:focus {
 .banner_counter {
     margin-top: 100px;
 }
-
+@media screen and (max-width: 767px) {
+    .banner_counter {
+        margin-top: 50px;
+    }
+    
+}
 .banner_counter li {
     text-align: left;
     margin-right: 40px;
@@ -951,6 +966,7 @@ button:focus {
 
 .about_img {
     position: relative;
+
 }
 
 .about_img_1 {
@@ -999,7 +1015,12 @@ button:focus {
     animation: rotate_animi 30s linear infinite;
     -webkit-animation: rotate_animi 30s linear infinite;
 }
-
+@media screen and (max-width: 767px) {
+    .about_img_2 {
+        display: none;
+    }
+    
+}
 .about_iteam {
     margin-top: 45px;
     margin-bottom: 38px;
@@ -1469,7 +1490,12 @@ button:focus {
     background: #00a6fbde;
     border-radius: 10px;
 }
-
+@media screen and (max-width: 767px) {
+    .appoinment_overlay {
+        padding: 30px;
+    }
+    
+}
 .appoinment_form h5::after {
     background: var(--colorWhite);
 }
@@ -2768,7 +2794,12 @@ button:focus {
     padding: 50px 40px;
     border: 1px solid rgba(69, 137, 244, 0.10);
 }
-
+@media screen and (max-width: 575px) {
+    .appoinment_wraper {
+        padding: 50px 20px;
+    }
+    
+}
 .home_tow_heading h5 {
     color: var(--colorDeepblue);
 }
@@ -2840,7 +2871,14 @@ button:focus {
     height: 556px;
     margin-right: 80px;
 }
-
+@media screen and (max-width: 575px) {
+    .about_2_img {
+        margin-right: 0px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+    
+}
 .about_2_text h2 span {
     text-align: start;
     font-size: 36px;

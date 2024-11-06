@@ -26,7 +26,7 @@ const Services = () => {
                         <Swiper
                             modules={[Pagination, Navigation]}
                             spaceBetween={30}
-                            slidesPerView={3}
+                            slidesPerView={1}
                             navigation
                             pagination={{ clickable: true }}
                             breakpoints={{
