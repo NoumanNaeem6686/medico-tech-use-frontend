@@ -126,6 +126,11 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li className="nav-item">
+                  <Link className="nav-link" href="/free-audit">
+                    Free Audit
+                  </Link>
+                </li>
+                <li className="nav-item">
                   <Link className="nav-link" href="/contact">
                     contact
                   </Link>
