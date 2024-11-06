@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function MainServicesPage() {
@@ -13,9 +14,15 @@ export default function MainServicesPage() {
               <div className="col-12">
                 <div className="breadcrumb_text">
                   <h1>our services</h1>
-                  <ul>
+                  <ul className="">
                     <li>
-                      <a href="#">Home</a>
+                      <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                      <i
+                        className="fas fa-chevron-right"
+                        style={{ margin: "0 8px", fontSize: "12px" }}
+                      ></i>
                     </li>
                     <li>Our Services</li>
                   </ul>
@@ -32,7 +39,6 @@ export default function MainServicesPage() {
     ==============================*/}
         <section className="service service_page pt_100 xs_pt_70 pb_100 xs_pb_70">
           <div className="container">
-              
             <div className="row">
               <div
                 className="col-lg-4 col-sm-6 wow fadeInUp"

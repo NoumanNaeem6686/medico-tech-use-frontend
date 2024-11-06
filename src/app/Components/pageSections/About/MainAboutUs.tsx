@@ -17,7 +17,13 @@ const MainAboutUs = () => {
                   <h1>About Us</h1>
                   <ul>
                     <li>
-                      <Link href="#">Home</Link>
+                      <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                      <i
+                        className="fas fa-chevron-right"
+                        style={{ margin: "0 8px", fontSize: "12px" }}
+                      ></i>
                     </li>
                     <li>About Us</li>
                   </ul>

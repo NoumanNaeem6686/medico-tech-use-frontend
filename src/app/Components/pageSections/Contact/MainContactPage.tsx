@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MainContactPage = () => {
@@ -15,7 +16,13 @@ const MainContactPage = () => {
                   <h1>contact us</h1>
                   <ul>
                     <li>
-                      <a href="#">Home</a>
+                      <Link href="/">Home</Link>
+                    </li>
+                    <li>
+                      <i
+                        className="fas fa-chevron-right"
+                        style={{ margin: "0 8px", fontSize: "12px" }}
+                      ></i>
                     </li>
                     <li>contact</li>
                   </ul>

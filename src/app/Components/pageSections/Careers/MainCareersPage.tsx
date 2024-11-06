@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MainCareersPage = () => {
@@ -14,7 +15,13 @@ const MainCareersPage = () => {
                 <h1>Careers</h1>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <i
+                      className="fas fa-chevron-right"
+                      style={{ margin: "0 8px", fontSize: "12px" }}
+                    ></i>
                   </li>
                   <li>Career</li>
                 </ul>

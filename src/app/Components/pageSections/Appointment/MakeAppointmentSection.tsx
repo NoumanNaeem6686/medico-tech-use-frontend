@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const MakeAppointmentSection = () => {
@@ -90,9 +91,9 @@ const MakeAppointmentSection = () => {
                 importance but because those who do not know how to pursue pleasure
                 rationally encounter consequ.
               </p>
-              <a href="contact.html" className="common_btn app_button">
+              <Link href="contact" className="common_btn app_button">
                 Contact Us Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

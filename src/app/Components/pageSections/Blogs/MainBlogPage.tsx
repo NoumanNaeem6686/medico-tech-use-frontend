@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const MainBlogPage = () => {
@@ -14,7 +15,13 @@ const MainBlogPage = () => {
                 <h1>Popular blogs</h1>
                 <ul>
                   <li>
-                    <a href="#">Home</a>
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li>
+                    <i
+                      className="fas fa-chevron-right"
+                      style={{ margin: "0 8px", fontSize: "12px" }}
+                    ></i>
                   </li>
                   <li>Blogs</li>
                 </ul>
@@ -43,7 +50,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
                   </a>
@@ -55,7 +61,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -76,7 +81,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     Doccure – Making your clinic painless visit
                   </a>
@@ -88,7 +92,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -109,7 +112,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     What are the benefits of Online Doctor Booking
                   </a>
@@ -121,7 +123,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -142,7 +143,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     What are the benefits of Online Doctor Booking
                   </a>
@@ -154,7 +154,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -175,7 +174,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
                   </a>
@@ -187,7 +185,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -208,7 +205,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     Doccure – Making your clinic painless visit
                   </a>
@@ -220,7 +216,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -241,7 +236,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
                   </a>
@@ -253,7 +247,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -274,7 +267,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     Doccure – Making your clinic painless visit
                   </a>
@@ -286,7 +278,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
@@ -307,7 +298,6 @@ const MainBlogPage = () => {
                   />
                 </div>
                 <div className="blog_text">
-
                   <a href="blog_details.html" className="blog_heading">
                     What are the benefits of Online Doctor Booking
                   </a>
@@ -319,7 +309,6 @@ const MainBlogPage = () => {
                     <a className="blog_link" href="blog_details.html">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    
                   </div>
                 </div>
               </div>
