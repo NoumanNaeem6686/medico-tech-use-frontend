@@ -132,15 +132,15 @@ const Navbar = () => {
                 </li>
               </ul>
               <ul className="menu_btn d-flex flex-wrap align-items-center">
-                <li>
+                {/* <li>
                   <a href="#" className="menu_search_icon">
                     <i className="fal fa-search" />
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="appointment.html" className="common_btn">
+                  <Link href="/appointment" className="common_btn">
                     Appointment
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

@@ -158,7 +158,7 @@ button:focus {
     content: "";
     width: 23px;
     height: 24px;
-    /* background: url(../images/arrow_icon.png); */
+    background: url(../images/arrow_icon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
