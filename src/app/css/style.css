@@ -5917,11 +5917,11 @@ button:focus {
     font-family: var(--paraFont);
     color: var(--paraColor);
     position: relative;
-    padding-left: 33px;
+    padding-left: 15px;
     margin-bottom: 15px;
 }
 
-.blog_details_text ul li::after,
+/* .blog_details_text ul li::after,
 .blog_details_text ol li::after {
     position: absolute;
     content: "\f00c";
@@ -5942,7 +5942,7 @@ button:focus {
     -moz-transition: all linear .3s;
     -ms-transition: all linear .3s;
     -o-transition: all linear .3s;
-}
+} */
 
 .blog_details_share {
     margin-top: 45px;

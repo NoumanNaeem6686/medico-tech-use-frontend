@@ -31,10 +31,10 @@ const AuditHeroSection = () => {
                   text It has roots in a piece of classical.
                 </p>
                 {/* <div className="button_group">
-                  <a href="appointment.html" className="common_btn">
+                  <a href="appointment" className="common_btn">
                     Get Appointment
                   </a>
-                  <a href="appointment.html" className="common_btn read_more">
+                  <a href="appointment" className="common_btn read_more">
                     Read More
                   </a>
                 </div> */}

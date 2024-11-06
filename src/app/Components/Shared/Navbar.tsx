@@ -33,7 +33,7 @@ const Navbar = () => {
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item">
                   <Link className="nav-link active" href="/">
-                    Home 
+                    Home
                     {/* <i className="far fa-plus" /> */}
                   </Link>
                   {/* <ul className="dropdown">
@@ -74,7 +74,7 @@ const Navbar = () => {
                       <a href="become_doctor.html">become a doctor</a>
                     </li>
                     <li>
-                      <a href="blog_details.html">Blog Details</a>
+                      <a href="blog-detail">Blog Details</a>
                     </li>
                     <li>
                       <a href="service_details.html">Services Details</a>

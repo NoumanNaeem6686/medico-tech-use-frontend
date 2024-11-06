@@ -43,7 +43,7 @@ const Blogs = () => {
                       22 june 2023
                     </li>
                   </ul>
-                  <a href="blog_details.html" className="blog_heading">
+                  <a href="blog-detail" className="blog_heading">
                     Telehealth Services Are Ready To Help Your Family
                   </a>
                   <p>
@@ -51,7 +51,7 @@ const Blogs = () => {
                     Veritatis consectetur ipsum.
                   </p>
                   <div className="blog_text_icon">
-                    <a className="blog_link" href="blog_details.html">
+                    <a className="blog_link" href="blog-detail">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
                     {/* <ul className="d-flex flex-wrap blog_react">
@@ -97,7 +97,7 @@ const Blogs = () => {
                       22 june 2023
                     </li>
                   </ul>
-                  <a href="blog_details.html" className="blog_heading">
+                  <a href="blog-detail" className="blog_heading">
                     Doccure – Making your clinic painless visit
                   </a>
                   <p>
@@ -105,7 +105,7 @@ const Blogs = () => {
                     Veritatis consectetur amet.
                   </p>
                   <div className="blog_text_icon">
-                    <a className="blog_link" href="blog_details.html">
+                    <a className="blog_link" href="blog-detail">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
                     {/* <ul className="d-flex flex-wrap blog_react">
@@ -151,7 +151,7 @@ const Blogs = () => {
                       22 june 2023
                     </li>
                   </ul>
-                  <a href="blog_details.html" className="blog_heading">
+                  <a href="blog-detail" className="blog_heading">
                     What are the benefits of Online Doctor Booking
                   </a>
                   <p>
@@ -159,7 +159,7 @@ const Blogs = () => {
                     Veritatis consectetur.
                   </p>
                   <div className="blog_text_icon">
-                    <a className="blog_link" href="blog_details.html">
+                    <a className="blog_link" href="blog-detail">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
                     {/* <ul className="d-flex flex-wrap blog_react">
