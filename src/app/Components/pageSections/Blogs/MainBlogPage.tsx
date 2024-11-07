@@ -1,12 +1,31 @@
+"use client";
+
+import axios from "axios";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 const MainBlogPage = () => {
+  const [blogs, setBlogs] = useState([]);
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const response = await axios.get(
+          `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/admin/all-blogs`
+        ); // Update '/api/blogs' with your actual API endpoint
+        if (response.data.success && response.data.data) {
+          setBlogs(response.data.data); // Accessing the 'data' array
+        } else {
+          console.error("Failed to retrieve blogs or no data available");
+        }
+      } catch (error) {
+        console.error("Failed to fetch blogs:", error);
+      }
+    };
+
+    fetchBlogs();
+  }, []);
   return (
     <>
-      {/*============================
-  BREADCRUMB START
-    ==============================*/}
       <section className="breadcrumb">
         <div className="container">
           <div className="row">
@@ -34,285 +53,51 @@ const MainBlogPage = () => {
       <section className="blog_page pt_75 xs_pt_45 pb_100 xs_pb_70">
         <div className="container">
           <div className="row">
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category">
-                    Medical
-                  </Link>
-                  <img
-                    src="images/blog-1.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    Telehealth Services Are Ready To Help Your Family
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur ipsum.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
+            {blogs.length > 0 ? (
+              blogs.map((blog, index) => (
+                <Link href={`/blog-detail/${blog.id}`} className="blog_heading">
+                  <div
+                    key={index}
+                    className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
+                    data-wow-duration="1s"
+                  >
+                    <div className="single_blog">
+                      <div className="blog_img">
+                        <Link href="#" className="category">
+                          Medical {/* Static category */}
+                        </Link>
+                        <img
+                          src={blog.blogImageUrl || "images/default-blog.jpg"} // Provide a default image if no blogImageUrl
+                          alt="blog img"
+                          className=" img-fluid w-100"
+                          style={{ height: "200px", objectFit: "cover" }} // Adjust image height
+                        />
+                      </div>
+                      <div className="blog_text">
+                        {blog.title}
+
+                        <p className="blog_description">
+                          {blog.description
+                            .replace(/(<([^>]+)>)/gi, "")
+                            .substring(0, 100)}
+                          ...
+                        </p>
+                        <div className="blog_text_icon">
+                          <Link
+                            href={`/blog-detail/${blog.id}`}
+                            className="blog_link"
+                          >
+                            read more <i className="far fa-long-arrow-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category blue">
-                    Hospital
-                  </Link>
-                  <img
-                    src="images/blog-2.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    Doccure – Making your clinic painless visit
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur amet.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category red">
-                    Doctor
-                  </Link>
-                  <img
-                    src="images/blog-3.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    What are the benefits of Online Doctor Booking
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category red">
-                    Doctor
-                  </Link>
-                  <img
-                    src="images/blog-6.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    What are the benefits of Online Doctor Booking
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category">
-                    Medical
-                  </Link>
-                  <img
-                    src="images/blog-4.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    Telehealth Services Are Ready To Help Your Family
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur ipsum.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category blue">
-                    Hospital
-                  </Link>
-                  <img
-                    src="images/blog-5.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    Doccure – Making your clinic painless visit
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur amet.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category">
-                    Medical
-                  </Link>
-                  <img
-                    src="images/blog-7.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    Telehealth Services Are Ready To Help Your Family
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur ipsum.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category blue">
-                    Hospital
-                  </Link>
-                  <img
-                    src="images/blog-5.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    Doccure – Making your clinic painless visit
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur amet.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-              data-wow-duration="1s"
-            >
-              <div className="single_blog">
-                <div className="blog_img">
-                  <Link href="#" className="category red">
-                    Doctor
-                  </Link>
-                  <img
-                    src="images/blog-3.jpg"
-                    alt="blog img"
-                    className=" img-fluid w-100"
-                  />
-                </div>
-                <div className="blog_text">
-                  <Link href="blog-detail" className="blog_heading">
-                    What are the benefits of Online Doctor Booking
-                  </Link>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur.
-                  </p>
-                  <div className="blog_text_icon">
-                    <a className="blog_link" href="blog-detail">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+                </Link>
+              ))
+            ) : (
+              <p>Loading blogs...</p>
+            )}
           </div>
           <div className="row mt_60">
             <div className="col-12">
@@ -351,6 +136,20 @@ const MainBlogPage = () => {
           </div>
         </div>
       </section>
+
+      {/* CSS styling for blog description */}
+      <style jsx>{`
+        .blog_description {
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: normal;
+          max-height: 3rem; /* Adjust as needed */
+          line-height: 1.5;
+        }
+      `}</style>
     </>
   );
 };
