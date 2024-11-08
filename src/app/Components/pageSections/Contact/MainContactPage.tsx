@@ -11,11 +11,10 @@ const MainContactPage = () => {
   const [contactNo, setContactNo] = useState("");
   const [message, setMessage] = useState("");
   const [contactType, setContactType] = useState(""); // Audio or Video
-
+  const [loading, setLoading] = useState(false);
   const handleFormSubmit = async (e) => {
     e.preventDefault(); // Prevent page refresh on form submit
-
-    // Create data object to send to the backend
+    setLoading(true);
     const formData = {
       name,
       email,
@@ -46,6 +45,8 @@ const MainContactPage = () => {
       // Handle error (e.g., show error message)
       // alert("There was an error submitting the form.");
       toast.error("There was an error submitting the form.");
+    } finally {
+      setLoading(false); // Set loading to false after response
     }
   };
 
@@ -157,7 +158,7 @@ const MainContactPage = () => {
                       </div>
                       <div className="col-xl-12">
                         <button type="submit" className="common_btn">
-                          Submit Now
+                          {loading ? "Loading..." : "Submit Now"}
                         </button>
                       </div>
                     </div>

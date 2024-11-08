@@ -12,6 +12,7 @@ const MakeAuditForm = () => {
   const [purpose, setPurpose] = useState("");
   const [meetingTime, setMeetingTime] = useState("");
   const [contactType, setContactType] = useState(""); // Audio or Video
+  const [loading, setLoading] = useState(false);
 
   // Generate time slots every 30 minutes with formatted intervals
   const generateTimeSlots = () => {
@@ -44,8 +45,7 @@ const MakeAuditForm = () => {
 
   const handleFormSubmit = async (e) => {
     e.preventDefault(); // Prevent page refresh on form submit
-
-    // Create data object to send to the backend
+    setLoading(true);
     const formData = {
       email,
       userName,
@@ -80,6 +80,8 @@ const MakeAuditForm = () => {
       // Handle error (e.g., show error message)
       // alert("There was an error booking the appointment.");
       toast.error("There was an error booking the appointment");
+    } finally {
+      setLoading(false); // Set loading to false after response
     }
   };
 
@@ -190,7 +192,7 @@ const MakeAuditForm = () => {
                         <div className="col-lg-6 col-sm-6">
                           <div className="appoinment_form_input">
                             <button type="submit" className="common_btn">
-                              Book Appointment
+                              {loading ? "Booking..." : "Book Appointment"}
                             </button>
                           </div>
                         </div>
