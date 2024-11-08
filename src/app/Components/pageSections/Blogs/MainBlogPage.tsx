@@ -12,7 +12,7 @@ const MainBlogPage = () => {
     const fetchBlogs = async () => {
       try {
         const response = await axios.get(
-          `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/admin/all-blogs`
+          `${process.env.NEXT_PUBLIC_BACKEND_URL}api/admin/all-blogs`
         ); // Update '/api/blogs' with your actual API endpoint
         if (response.data.success && response.data.data) {
           setBlogs(response.data.data); // Accessing the 'data' array
