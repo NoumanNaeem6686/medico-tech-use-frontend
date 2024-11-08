@@ -3,9 +3,11 @@
 import axios from "axios";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
 
 const MainBlogPage = () => {
   const [blogs, setBlogs] = useState([]);
+  const router = useRouter();
   useEffect(() => {
     const fetchBlogs = async () => {
       try {
@@ -24,6 +26,10 @@ const MainBlogPage = () => {
 
     fetchBlogs();
   }, []);
+
+  const handleBlogClick = (id: any) => {
+    router.push(`blog-detail/${id}`);
+  };
   return (
     <>
       <section className="breadcrumb">
@@ -55,45 +61,44 @@ const MainBlogPage = () => {
           <div className="row">
             {blogs.length > 0 ? (
               blogs.map((blog, index) => (
-                <Link href={`/blog-detail/${blog.id}`} className="blog_heading">
-                  <div
-                    key={index}
-                    className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
-                    data-wow-duration="1s"
-                  >
-                    <div className="single_blog">
-                      <div className="blog_img">
-                        <Link href="#" className="category">
-                          Medical {/* Static category */}
-                        </Link>
-                        <img
-                          src={blog.blogImageUrl || "images/default-blog.jpg"} // Provide a default image if no blogImageUrl
-                          alt="blog img"
-                          className=" img-fluid w-100"
-                          style={{ height: "200px", objectFit: "cover" }} // Adjust image height
-                        />
-                      </div>
-                      <div className="blog_text">
-                        {blog.title}
+                <div
+                  key={index}
+                  className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
+                  data-wow-duration="1s"
+                  onClick={() => handleBlogClick(blog.id)}
+                >
+                  <div className="single_blog">
+                    <div className="blog_img">
+                      <Link href="#" className="category">
+                        Medical {/* Static category */}
+                      </Link>
+                      <img
+                        src={blog.blogImageUrl || "images/default-blog.jpg"} // Provide a default image if no blogImageUrl
+                        alt="blog img"
+                        className=" img-fluid w-100"
+                        style={{ height: "200px", objectFit: "cover" }} // Adjust image height
+                      />
+                    </div>
+                    <div className="blog_text">
+                      {blog.title}
 
-                        <p className="blog_description">
-                          {blog.description
-                            .replace(/(<([^>]+)>)/gi, "")
-                            .substring(0, 100)}
-                          ...
-                        </p>
-                        <div className="blog_text_icon">
-                          <Link
-                            href={`/blog-detail/${blog.id}`}
-                            className="blog_link"
-                          >
-                            read more <i className="far fa-long-arrow-right" />
-                          </Link>
-                        </div>
+                      <p className="blog_description">
+                        {blog.description
+                          .replace(/(<([^>]+)>)/gi, "")
+                          .substring(0, 100)}
+                        ...
+                      </p>
+                      <div className="blog_text_icon">
+                        <Link
+                          href={`/blog-detail/${blog.id}`}
+                          className="blog_link"
+                        >
+                          read more <i className="far fa-long-arrow-right" />
+                        </Link>
                       </div>
                     </div>
                   </div>
-                </Link>
+                </div>
               ))
             ) : (
               <p>Loading blogs...</p>

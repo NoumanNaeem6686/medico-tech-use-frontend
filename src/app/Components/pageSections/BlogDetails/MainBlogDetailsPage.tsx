@@ -9,6 +9,7 @@ const MainBlogDetailsPage = () => {
   const [loading, setLoading] = useState(true); // Added loading state
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
+  console.log("id", id);
 
   useEffect(() => {
     const fetchBlogDetails = async () => {
