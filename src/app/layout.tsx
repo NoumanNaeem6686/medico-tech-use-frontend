@@ -51,8 +51,8 @@ export default function RootLayout({
         <Header />
         <Navbar />
         {children}
-        <ToastContainer />
         <Footer />
+        <ToastContainer />
       </body>
     </html>
   );

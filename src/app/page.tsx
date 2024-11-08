@@ -1,8 +1,6 @@
 import Head from "next/head";
 import MainHomeComponent from "./Components/pageSections/Home/MainHomeComponent";
 
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 export default function Home() {
   return (
     <>
@@ -16,7 +14,6 @@ export default function Home() {
         />
       </Head>
       <MainHomeComponent />
-      <ToastContainer />
     </>
   );
 }
