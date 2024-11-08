@@ -27,9 +27,10 @@ const MainBlogPage = () => {
     fetchBlogs();
   }, []);
 
-  const handleBlogClick = (id: any) => {
-    router.push(`blog-detail/${id}`);
+  const handleBlogClick = (id: string) => {
+    router.push(`/blog-detail/${id}`);
   };
+
   return (
     <>
       <section className="breadcrumb">

@@ -1,48 +1,11 @@
 "use client";
-import axios from "axios";
-import { useSearchParams } from "next/navigation";
+
+import React from "react";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
 
-const MainBlogDetailsPage = () => {
-  const [blog, setBlog] = useState(null);
-  const [loading, setLoading] = useState(true); // Added loading state
-  const searchParams = useSearchParams();
-  const id = searchParams.get("id");
-  console.log("id", id);
-
-  useEffect(() => {
-    const fetchBlogDetails = async () => {
-      if (id) {
-        try {
-          const response = await axios.get(
-            `${process.env.NEXT_PUBLIC_BACKEND_URL}/api/admin/get-blog/${id}`
-          ); // Ensure this endpoint is correct
-          console.log("blog response", response);
-          if (response.data.success) {
-            setBlog(response.data); // Assuming data contains the blog details
-          } else {
-            console.error("Failed to retrieve blog details");
-          }
-        } catch (error) {
-          console.error("Error fetching blog details:", error);
-        } finally {
-          setLoading(false); // Set loading to false once data fetching is complete
-        }
-      } else {
-        setLoading(false); // Stop loading if id is not available
-      }
-    };
-
-    fetchBlogDetails();
-  }, [id]);
-
-  if (loading) {
-    return <p>Loading blog details...</p>;
-  }
-
+const MainBlogDetailsPage = ({ blog }) => {
   if (!blog) {
-    return <p>No blog details found.</p>;
+    return <p>No blog data available.</p>;
   }
 
   return (
