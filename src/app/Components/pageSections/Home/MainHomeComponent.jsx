@@ -8,13 +8,11 @@ import Testimonials from "./Testimonials";
 const MainHomeComponent = () => {
   return (
     <div>
-   
-    
       <Banner />
       <About />
-      <Contact />
+      {/* <Contact /> */}
       <HelpLine />
-      <Testimonials/>
+      <Testimonials />
       <Blogs />
     </div>
   );
