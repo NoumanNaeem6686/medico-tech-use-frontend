@@ -136,18 +136,18 @@ const Navbar = () => {
                   </Link>
                 </li>
               </ul>
-              <ul className="menu_btn d-flex flex-wrap align-items-center">
-                {/* <li>
+              {/* <ul className="menu_btn d-flex flex-wrap align-items-center">
+                <li>
                   <a href="#" className="menu_search_icon">
                     <i className="fal fa-search" />
                   </a>
-                </li> */}
+                </li>
                 <li>
                   <Link href="/appointment" className="common_btn">
                     Meeting
                   </Link>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </nav>
