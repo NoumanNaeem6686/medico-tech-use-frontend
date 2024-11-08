@@ -78,6 +78,19 @@ const MainBlogDetailsPage = ({ blog }) => {
                   {/* Render the description as HTML */}
                   <div dangerouslySetInnerHTML={{ __html: blog.description }} />
                 </div>
+                {/* Tags Section */}
+                {blog.tags && blog.tags.length > 0 && (
+                  <div className="blog_tags mt_30">
+             
+                    <ul className="tags_list d-flex flex-wrap">
+                      {blog.tags.map((tag, index) => (
+                        <li key={index} className="tag_item">
+                          <span className="tag">{tag}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
           </div>
@@ -86,6 +99,32 @@ const MainBlogDetailsPage = ({ blog }) => {
       {/*============================
   BLOG DETAILS END
     ==============================*/}
+      <style jsx>{`
+        .blog_tags {
+          margin-top: 30px;
+        }
+        .tags_list {
+          padding: 0;
+          list-style: none;
+          gap: 10px;
+        }
+        .tag_item {
+          margin-right: 10px;
+        }
+        .tag {
+          display: inline-block;
+          padding: 5px 10px;
+          background-color: #f1f1f1;
+          border-radius: 20px;
+          font-size: 14px;
+          color: #333;
+        }
+        .tag:hover {
+          background-color: #007bff;
+          color: #fff;
+          cursor: pointer;
+        }
+      `}</style>
     </>
   );
 };
