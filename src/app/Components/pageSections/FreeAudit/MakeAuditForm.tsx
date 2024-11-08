@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import axios from "axios";
+import { toast } from "react-toastify";
 
 const MakeAuditForm = () => {
   // State variables for form inputs
@@ -64,7 +65,8 @@ const MakeAuditForm = () => {
       console.log("Response from backend:", response.data);
 
       // Handle success (e.g., show success message, clear form fields, etc.)
-      alert("Appointment booked successfully!");
+      // alert("Appointment booked successfully!");
+      toast.success("Appointment booked successfully!");
       // Reset form fields
       setEmail("");
       setUserName("");
@@ -76,7 +78,8 @@ const MakeAuditForm = () => {
     } catch (error) {
       console.error("Error submitting form:", error);
       // Handle error (e.g., show error message)
-      alert("There was an error booking the appointment.");
+      // alert("There was an error booking the appointment.");
+      toast.error("There was an error booking the appointment");
     }
   };
 

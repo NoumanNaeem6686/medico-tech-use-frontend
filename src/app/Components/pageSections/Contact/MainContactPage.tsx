@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Link from "next/link";
+import { toast } from "react-toastify";
 
 const MainContactPage = () => {
   // State variables for form inputs
@@ -32,7 +33,8 @@ const MainContactPage = () => {
       console.log("Response from backend:", response.data);
 
       // Handle success (e.g., show success message, clear form fields, etc.)
-      alert("Contact form submitted successfully!");
+      // alert("Contact form submitted successfully!");
+      toast.success("Contact form submitted successfully!");
       // Reset form fields
       setName("");
       setEmail("");
@@ -42,7 +44,8 @@ const MainContactPage = () => {
     } catch (error) {
       console.error("Error submitting form:", error);
       // Handle error (e.g., show error message)
-      alert("There was an error submitting the form.");
+      // alert("There was an error submitting the form.");
+      toast.error("There was an error submitting the form.");
     }
   };
 
