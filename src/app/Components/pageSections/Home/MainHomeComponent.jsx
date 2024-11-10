@@ -13,7 +13,7 @@ const MainHomeComponent = () => {
       {/* <Contact /> */}
       <HelpLine />
       <Testimonials />
-      <Blogs />
+      {/* <Blogs /> */}
     </div>
   );
 };

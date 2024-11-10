@@ -47,25 +47,61 @@ const About = () => {
               >
                 <div className="common_heading">
                   <h5>about us</h5>
-                  <h2>The Great Place of Medical Hospital Center.</h2>
+                  {/* <h2>The Great Place of Medical Hospital Center.</h2> */}
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Quis ipsum susp endisse ultrices gravida tempor
-                    incididu ut labore et dolore magna aliqua. Quis ipsum susp
-                    endisse ultrices gravida.
+                    At MedicoTech Solutions (MTS), we are a team of healthcare
+                    IT and billing experts dedicated to revolutionizing the work
+                    of healthcare providers by providing them with inventive
+                    solutions to all their administrative problems. Our experts
+                    bring precision and efficiency to every task. Being trusted
+                    by numerous healthcare providers, our company is destined to
+                    provide hassle-free medical billing and medical coding
+                    solutions, top-notch IT consultation, and cutting-edge
+                    digital Healthcare Technologies empowering healthcare
+                    providers to focus more on delivering exceptional patient
+                    care.
                   </p>
                 </div>
                 <ul className="about_iteam d-flex flex-wrap">
-                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> Ambulance Services</li>
-                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> Oxygen on Wheel</li>
-                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> Pharmacy on Clinic</li>
-                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> On duty Doctors</li>
-                  <li><i className="fas fa-check" style={{ color: '#00A6FB' }}></i> 24/7 Medical Emergency</li>
+                  <li>
+                    <i
+                      className="fas fa-check"
+                      style={{ color: "#00A6FB" }}
+                    ></i>{" "}
+                    Ambulance Services
+                  </li>
+                  <li>
+                    <i
+                      className="fas fa-check"
+                      style={{ color: "#00A6FB" }}
+                    ></i>{" "}
+                    Oxygen on Wheel
+                  </li>
+                  <li>
+                    <i
+                      className="fas fa-check"
+                      style={{ color: "#00A6FB" }}
+                    ></i>{" "}
+                    Pharmacy on Clinic
+                  </li>
+                  <li>
+                    <i
+                      className="fas fa-check"
+                      style={{ color: "#00A6FB" }}
+                    ></i>{" "}
+                    On duty Doctors
+                  </li>
+                  <li>
+                    <i
+                      className="fas fa-check"
+                      style={{ color: "#00A6FB" }}
+                    ></i>{" "}
+                    24/7 Medical Emergency
+                  </li>
                 </ul>
 
                 <a href="about.html" className="common_btn">
-                  Discover More
+                  LEARN MORE….
                 </a>
               </div>
             </div>

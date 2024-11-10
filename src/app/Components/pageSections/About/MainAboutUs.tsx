@@ -77,13 +77,19 @@ const MainAboutUs = () => {
                 >
                   <div className="common_heading">
                     <h5>about us</h5>
-                    <h2>The Great Place of Medical Hospital Center.</h2>
+                    {/* <h2>The Great Place of Medical Hospital Center.</h2> */}
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Quis ipsum susp endisse ultrices gravida tempor
-                      incididu ut labore et dolore magna aliqua. Quis ipsum susp
-                      endisse ultrices gravida.
+                      At MedicoTech Solutions (MTS), we are a team of healthcare
+                      IT and billing experts dedicated to revolutionizing the
+                      work of healthcare providers by providing them with
+                      inventive solutions to all their administrative problems.
+                      Our experts bring precision and efficiency to every task.
+                      Being trusted by numerous healthcare providers, our
+                      company is destined to provide hassle-free medical billing
+                      and medical coding solutions, top-notch IT consultation,
+                      and cutting-edge digital Healthcare Technologies
+                      empowering healthcare providers to focus more on
+                      delivering exceptional patient care.
                     </p>
                   </div>
                   <ul className="about_iteam d-flex flex-wrap">
@@ -159,8 +165,8 @@ const MainAboutUs = () => {
               </div>
             </div>
           </div>
-          <AboutOurCompany/>
-       
+          <AboutOurCompany />
+
           <div
             className="process pt_100 xs_pt_70 pb_95 xs_pb_65"
             style={{ background: "url(images/work_bg.jpg)" }}

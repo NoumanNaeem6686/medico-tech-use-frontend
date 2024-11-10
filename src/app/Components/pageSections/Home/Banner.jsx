@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Link from "next/link";
 import React from "react";
 import CountUp from "react-countup";
@@ -17,14 +17,19 @@ const Banner = () => {
               data-wow-duration="1s"
             >
               <div className="banner_text">
-                <h5>Welcome to Medico</h5>
-                <h1>We Are Committed To Your Health</h1>
+                <h5>Welcome to Medico Tech</h5>
+                <h1>Where Healthcare Meets Innovation</h1>
+                <p className="">
+                  Unlock the Future of Healthcare Management Today
+                </p>
                 <p>
-                  It is a established fact that a reader will be distracted by
-                  the content of a page when looking at this layout.
+                  Embrace the future of healthcare with our advanced solutions.
+                  From streamlining medical billing to cutting-edge IT
+                  consultation, we empower you to deliver the highest quality
+                  patient care
                 </p>
                 <Link href="/free-audit" className="common_btn">
-                  Free Audit Yourself
+                  LET’S GET STARTED
                 </Link>
                 <ul className="banner_counter d-flex flex-wrap">
                   <li>
@@ -93,7 +98,6 @@ const Banner = () => {
           </div>
         </div>
       </section>
-     
     </>
   );
 };
