@@ -50,7 +50,7 @@ const Footer = () => {
                 </p>
                 <div className="footer_mail">
                   <span>Hello to :</span>
-                  <Link href="#">support@gmail.com</Link>
+                  <Link href="#">Support@medicotechsolutions.com</Link>
                 </div>
                 <div className="tf_footer_icon d-flex flex-wrap align-items-center">
                   <span>Follow :</span>
@@ -92,8 +92,6 @@ const Footer = () => {
                   <li>
                     <Link href="services">our service</Link>
                   </li>
-                
-                 
                 </ul>
               </div>
             </div>
@@ -123,7 +121,7 @@ const Footer = () => {
               <div className="quick_link">
                 <h5>Quick Link</h5>
                 <ul>
-                <li>
+                  <li>
                     <Link href="appointment">Get Appointment</Link>
                   </li>
                   {/* <li>
@@ -149,16 +147,16 @@ const Footer = () => {
                 <h5>Official Info</h5>
                 <div className="tf_footer_address">
                   <p>
-                    <i className="fas fa-map-marker-alt" /> 2767 Sunrise Street,
-                    NY 1002, USA
+                    <i className="fas fa-map-marker-alt" /> : 5900 Balcones
+                    Drive, Suite 18270 Austin, , TX 78731, USA
                   </p>
                   <Link href="#">
                     <i className="fas fa-envelope" />
-                    company@gmail.com
+                    Support@medicotechsolutions.com
                   </Link>
                   <Link href="#">
                     <i className="fas fa-phone-alt" />
-                    +965548547564
+                    +1 (737) 283-1792
                   </Link>
                 </div>
               </div>
@@ -167,7 +165,7 @@ const Footer = () => {
           <div className="row mt_70 xs_mt_45 sm_margin ">
             <div className="col-xl-12">
               <div className="copyright d-flex flex-wrap justify-content-between">
-                <p>2024 Medico. All rights reserved.</p>
+                <p>© 2024 MedicoTech Soultions. All Rights Reserved</p>
                 <ul className="d-flex flex-wrap">
                   <li>
                     <Link href="#">Terms and conditions</Link>

@@ -17,7 +17,7 @@ const Banner = () => {
               data-wow-duration="1s"
             >
               <div className="banner_text">
-                <h5>Welcome to Medico Tech</h5>
+                <h5>Welcome to MedicoTech Solutions (MTS)</h5>
                 <h1>Where Healthcare Meets Innovation</h1>
                 <p className="">
                   Unlock the Future of Healthcare Management Today

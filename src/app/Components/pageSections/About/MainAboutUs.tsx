@@ -42,70 +42,108 @@ const MainAboutUs = () => {
           <div className="about pt_100 xs_pt_70 pb_100 xs_pb_70">
             <div className="container">
               <div className="row">
-                <div
-                  className="col-xl-6 col-sm-9  col-lg-5 col-md-7 wow fadeInLeft"
-                  data-wow-duration="1s"
-                >
-                  <div className="about_img">
-                    <div className="about_img_1">
-                      <img
-                        src="images/about-img1.jpg"
-                        alt="about img"
-                        className="img-fluid w-100"
-                      />
-                    </div>
-                    <div className="about_img_2">
-                      <img
-                        src="images/about_img2.jpg"
-                        alt="about img"
-                        className="img-fluid w-100"
-                      />
-                      <Link
-                        className="play_btn venobox"
-                        data-autoplay="true"
-                        data-vbtype="video"
-                        href="https://youtu.be/nqye02H_H6I"
-                      >
-                        <i className="fas fa-play" aria-hidden="true" />
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="col-xl-6 col-sm-12 col-lg-7  wow fadeInRight"
-                  data-wow-duration="1s"
-                >
+                <div className="col-12 wow fadeInRight" data-wow-duration="1s">
                   <div className="common_heading">
-                    <h5>about us</h5>
-                    {/* <h2>The Great Place of Medical Hospital Center.</h2> */}
+                    <h2 style={{ fontSize: "2.5rem", marginBottom: "15px" }}>
+                      Welcome to MedicoTech Solutions (MTS)
+                    </h2>
+                    <h5 style={{ fontSize: "1.5rem", marginBottom: "20px" }}>
+                      Your trusted partner in Healthcare Management & Billing
+                      Excellence
+                    </h5>
                     <p>
                       At MedicoTech Solutions (MTS), we are a team of healthcare
                       IT and billing experts dedicated to revolutionizing the
                       work of healthcare providers by providing them with
                       inventive solutions to all their administrative problems.
                       Our experts bring precision and efficiency to every task.
+                    </p>
+                    <p>
                       Being trusted by numerous healthcare providers, our
                       company is destined to provide hassle-free medical billing
                       and medical coding solutions, top-notch IT consultation,
                       and cutting-edge digital Healthcare Technologies
-                      empowering healthcare providers to focus more on
-                      delivering exceptional patient care.
+                      empowering physicians and other healthcare providers to
+                      focus more on delivering exceptional patient care.
                     </p>
                   </div>
-                  <ul className="about_iteam d-flex flex-wrap">
-                    <li>Ambulance Services</li>
-                    <li>Oxizen on Wheel</li>
-                    <li>Pharmacy on Clinic</li>
-                    <li>On duty Doctors</li>
-                    <li>24/7 Medical Emergency</li>
-                  </ul>
-                  <Link href="/appointment" className="common_btn">
+
+                  <div className="common_heading">
+                    <h2 style={{ fontSize: "2.2rem", marginBottom: "15px" }}>
+                      Our Mission
+                    </h2>
+                    <p>
+                      Our mission is to empower healthcare providers globally by
+                      streamlining critical operational processes, enabling them
+                      to focus solely on delivering outstanding patient care. We
+                      are dedicated to optimizing billing workflows, providing
+                      robust IT support, and offering advanced digital health
+                      solutions.
+                    </p>
+                    <p>
+                      By simplifying administrative tasks, we aim to enhance
+                      patient care quality while helping medical practices
+                      achieve optimal financial results.
+                    </p>
+                  </div>
+
+                  <div className="common_heading">
+                    <h2 style={{ fontSize: "2.2rem", marginBottom: "15px" }}>
+                      Our Vision
+                    </h2>
+                    <p>
+                      We envision a healthcare ecosystem where technology
+                      effortlessly addresses operational complexities, fostering
+                      a sustainable and impactful environment that benefits
+                      providers and patients.
+                    </p>
+                    <p>
+                      We are committed to simplifying revenue cycle management,
+                      reducing denials, boosting revenue, and delivering
+                      exceptional IT support, allowing medical professionals to
+                      focus on patient care.
+                    </p>
+                  </div>
+
+                  <div className="common_heading">
+                    <h2 style={{ fontSize: "2.2rem", marginBottom: "15px" }}>
+                      Why Choose Us?
+                    </h2>
+                    <p>
+                      At MedicoTech Solutions (MTS), we promise to be your true
+                      partner in Healthcare Management. We promise to be your
+                      true partner in Healthcare Management, with a team that
+                      deeply understands the unique challenges in the healthcare
+                      industry. We prioritize quality and transparency, ensuring
+                      client satisfaction. Our dedication and efforts in
+                      creating a better healthcare ecosystem make us stand out
+                      from our competitors.
+                    </p>
+                  </div>
+
+                  <div className="common_heading" style={{ marginTop: "20px" }}>
+                    <h3 style={{ fontSize: "1.8rem", marginBottom: "15px" }}>
+                      REQUEST A FREE CONSULTATION NOW!
+                    </h3>
+                    <p>
+                      Transform your practice with MedicoTech
+                      Solutions—experience seamless efficiency, enhanced patient
+                      care, and optimal financial outcomes.
+                    </p>
+                  </div>
+
+                  <Link
+                    href="/appointment"
+                    className="common_btn"
+                    style={{ marginTop: "25px" }}
+                  >
                     Get Appointment
                   </Link>
                 </div>
               </div>
             </div>
           </div>
+
           <div className="about_counter">
             <div className="container">
               <div
@@ -167,7 +205,7 @@ const MainAboutUs = () => {
           </div>
           <AboutOurCompany />
 
-          <div
+          {/* <div
             className="process pt_100 xs_pt_70 pb_95 xs_pb_65"
             style={{ background: "url(images/work_bg.jpg)" }}
           >
@@ -237,8 +275,8 @@ const MainAboutUs = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="team pt_100 xs_pt_70 pb_100 xs_pb_70">
+          </div> */}
+          {/* <div className="team pt_100 xs_pt_70 pb_100 xs_pb_70">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">
@@ -433,15 +471,15 @@ const MainAboutUs = () => {
                     </div>
                   </div>
                 </div>
-                {/* <div className="col-12 text-center mt_40">
+                <div className="col-12 text-center mt_40">
                   <Link className="common_btn" href="doctor.html">
                     view more
                   </Link>
-                </div> */}
+                </div>
               </div>
             </div>
-          </div>
-          <div className="helpline pt_100 xs_pt_70 pb_100 xs_pb_70">
+          </div> */}
+          {/* <div className="helpline pt_100 xs_pt_70 pb_100 xs_pb_70">
             <div className="container">
               <div className="row justify-content-between">
                 <div
@@ -500,8 +538,8 @@ const MainAboutUs = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="blog pt_100 xs_pt_70 pb_100 xs_pb_70">
+          </div> */}
+          {/* <div className="blog pt_100 xs_pt_70 pb_100 xs_pb_70">
             <div className="container">
               <div className="row">
                 <div className="col-xl-12">
@@ -549,7 +587,7 @@ const MainAboutUs = () => {
                         <Link className="blog_link" href="blog-detail">
                           read more <i className="far fa-long-arrow-right" />
                         </Link>
-                        {/* <ul className="d-flex flex-wrap blog_react">
+                        <ul className="d-flex flex-wrap blog_react">
                           <li>
                             <i className="fas fa-comment-lines" />5
                           </li>
@@ -561,7 +599,7 @@ const MainAboutUs = () => {
                             <i className="fas fa-share-alt" />
                             15
                           </li>
-                        </ul> */}
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -603,7 +641,7 @@ const MainAboutUs = () => {
                         <Link className="blog_link" href="blog-detail">
                           read more <i className="far fa-long-arrow-right" />
                         </Link>
-                        {/* <ul className="d-flex flex-wrap blog_react">
+                        <ul className="d-flex flex-wrap blog_react">
                           <li>
                             <i className="fas fa-comment-lines" />5
                           </li>
@@ -615,7 +653,7 @@ const MainAboutUs = () => {
                             <i className="fas fa-share-alt" />
                             15
                           </li>
-                        </ul> */}
+                        </ul>
                       </div>
                     </div>
                   </div>
@@ -657,7 +695,7 @@ const MainAboutUs = () => {
                         <Link className="blog_link" href="blog-detail">
                           read more <i className="far fa-long-arrow-right" />
                         </Link>
-                        {/* <ul className="d-flex flex-wrap blog_react">
+                        <ul className="d-flex flex-wrap blog_react">
                           <li>
                             <i className="fas fa-comment-lines" />5
                           </li>
@@ -669,14 +707,14 @@ const MainAboutUs = () => {
                             <i className="fas fa-share-alt" />
                             15
                           </li>
-                        </ul> */}
+                        </ul>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </section>
         {/*============================
   ABOUT PAGE END

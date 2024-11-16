@@ -11,19 +11,19 @@ const Header = () => {
                 <li>
                   <a href="callto:123456789">
                     <i className="fas fa-phone-alt" />
-                    +1 (700) 230-0035
+                    +1 (737) 283-1792
                   </a>
                 </li>
                 <li>
                   <a href="mailto:example@gmail.com">
                     <i className="fas fa-envelope" />
-                    support@gmail.com
+                    Support@medicotechsolutions.com
                   </a>
                 </li>
                 <li>
                   <p>
                     <i className="fas fa-map-marker-alt" />
-                    2767 Sunrise Street, NY 1002, USA
+                    5900 Balcones Drive, Suite 18270 Austin, TX 78731, USA
                   </p>
                 </li>
               </ul>
@@ -47,7 +47,12 @@ const Header = () => {
                 </li>
                 <li>
                   <a href="#">
-                    <i className="fab fa-google-plus-g" />
+                    <i className="fab fa-instagram" />
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i className="fab fa-linkedin-in" />
                   </a>
                 </li>
               </ul>
