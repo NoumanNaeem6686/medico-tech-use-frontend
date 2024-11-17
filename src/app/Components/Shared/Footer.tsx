@@ -23,7 +23,7 @@ const Footer = () => {
               <div className="footer_left">
                 <Link href="/" className="tf_footer_logo">
                   <img
-                    src={IMAGES.LOGO}
+                    src={"/logo.png"}
                     alt="MediFax"
                     className="img-fluid w-100"
                   />
