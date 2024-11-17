@@ -2010,11 +2010,12 @@ button:focus {
 
 .review {
   position: relative;
-  background: rgba(94, 94, 238, 0.1);
+  /* background: rgba(94, 94, 238, 0.1); */
 }
 
 .single_review {
   padding: 40px 30px;
+  /* border: 1px solid rgb(160, 155, 155); */
   background: var(--colorWhite);
   border-radius: 10px;
   -webkit-border-radius: 10px;

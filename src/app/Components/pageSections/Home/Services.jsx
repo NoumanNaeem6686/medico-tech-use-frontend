@@ -7,6 +7,53 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 
 const Services = () => {
+  const services = [
+    {
+      id: 1,
+      iconClass: "fas fa-eye",
+      imgSrc: "image13.jpg",
+      title: "Regulatory Compliance",
+      description: "Expert coding for accurate claims and reduced denials.",
+      link: "/services/regulatory-compliance",
+    },
+    {
+      id: 2,
+      iconClass: "fas fa-heartbeat",
+      imgSrc: "image12.jpg",
+      title: "Revenue Optimization",
+      description:
+        "Optimize your revenue cycle with data-driven solutions that maximize efficiency and minimize losses.",
+      link: "/services/revenue-cycle-optimization",
+    },
+    {
+      id: 3,
+      iconClass: "fas fa-capsules",
+      imgSrc: "image15.jpg",
+      title: "Custom HER Solutions",
+      description:
+        "Boost efficiency with our tailored MedicoTech IT solutions.",
+      link: "/services/custom-her-solutions",
+    },
+    {
+      id: 4,
+      iconClass: "fas fa-heartbeat",
+      imgSrc: "image14.jpg",
+      title: "Innovative Digital Health",
+      description:
+        "Enhance patient care through innovative digital health solutions.",
+      link: "/services/innovative-digital-health",
+    },
+    {
+      id: 5,
+      iconClass: "fas fa-heartbeat",
+      imgSrc: "image17.jpg",
+      title: "Digital Medicine Solutions",
+      description:
+        "Improve healthcare outcomes with cutting-edge digital tools.",
+      link: "/services/digital-medicine-solutions",
+    },
+  ];
+
   return (
     <>
       <section
@@ -18,7 +65,7 @@ const Services = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="common_heading center_heading mb_15">
-                  <h2>our service</h2>
+                  <h2>Our Services</h2>
                 </div>
               </div>
             </div>
@@ -40,137 +87,34 @@ const Services = () => {
                 },
               }}
             >
-              <SwiperSlide>
-                <div className="single_service">
-                  <div className="service_img">
-                    <span className="tf_service_icon">
-                      <i className="fas fa-eye" />
-                    </span>
-                    <img
-                      src="image13.jpg"
-                      alt="service img"
-                      className=" w-100"
-                    />
+              {services.map((service) => (
+                <SwiperSlide key={service.id}>
+                  <div className="single_service">
+                    <div className="service_img">
+                      <span className={`tf_service_icon`}>
+                        <i className={service.iconClass} />
+                      </span>
+                      <img
+                        src={service.imgSrc}
+                        alt={`${service.title} image`}
+                        className="img-fluid w-100"
+                      />
+                    </div>
+                    <div className="service_text">
+                      <a
+                        href={service.link}
+                        className="service_heading"
+                      >
+                        {service.title}
+                      </a>
+                      <p>{service.description}</p>
+                      <a href={service.link} className="service_link">
+                        Read more <i className="far fa-long-arrow-right" />
+                      </a>
+                    </div>
                   </div>
-                  <div className="service_text">
-                    <a href="service_details.html" className="service_heading">
-                      Regulatory Compalines
-                    </a>
-                    <p>
-                      Expert coding for accurate claims and reduced denials.
-                    </p>
-                    <a href="service_details.html" className="service_link">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="single_service">
-                  <div className="service_img">
-                    <span className="tf_service_icon tf_service_icon2">
-                      <i className="fas fa-heartbeat" />
-                    </span>
-                    <img
-                      src="image12.jpg"
-
-                      alt="service img"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="service_text">
-                    <a href="service_details.html" className="service_heading">
-                      Tablet, night, scientist
-                    </a>
-                    <p>
-                      Optimize your revenue cycle with data-driven solutions
-                      that maximize efficiency and minimize losses.
-                    </p>
-                    <a href="service_details.html" className="service_link">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="single_service">
-                  <div className="service_img">
-                    <span className="tf_service_icon tf_service_icon3">
-                      <i className="fas fa-capsules" />
-                    </span>
-                    <img
-                      src="image15.jpg"
-                      alt="service img"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="service_text">
-                    <a href="service_details.html" className="service_heading">
-                      Custom HER Hospital
-                    </a>
-                    <p>
-                      Boost efficiency with our tailored MedicoTech IT solutions
-                    </p>
-                    <a href="service_details.html" className="service_link">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="single_service">
-                  <div className="service_img">
-                    <span className="tf_service_icon tf_service_icon4">
-                      <i className="fas fa-heartbeat" />
-                    </span>
-                    <img
-                      src="image14.jpg"
-
-                      alt="service img"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="service_text">
-                    <a href="service_details.html" className="service_heading">
-                      Medicaltech research, innovative
-                    </a>
-                    <p>
-                      Enhance patient care through innovative digital health
-                      solutions.
-                    </p>
-                    <a href="service_details.html" className="service_link">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </SwiperSlide>
-              <SwiperSlide>
-                <div className="single_service">
-                  <div className="service_img">
-                    <span className="tf_service_icon tf_service_icon4">
-                      <i className="fas fa-heartbeat" />
-                    </span>
-                    <img
-                      src="image10.jpg"
-
-                      alt="service img"
-                      className="img-fluid w-100"
-                    />
-                  </div>
-                  <div className="service_text">
-                    <a href="service_details.html" className="service_heading">
-                      Medicine Doctor and Digital
-                    </a>
-                    <p>
-                      Enhance patient care through innovative digital health
-                      solutions.
-                    </p>
-                    <a href="service_details.html" className="service_link">
-                      read more <i className="far fa-long-arrow-right" />
-                    </a>
-                  </div>
-                </div>
-              </SwiperSlide>
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </div>

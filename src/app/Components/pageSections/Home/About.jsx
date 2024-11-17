@@ -65,17 +65,17 @@ const About = () => {
                   <h5>about us</h5>
                   {/* <h2>The Great Place of Medical Hospital Center.</h2> */}
                   <p>
-                    At MedicoTech Solutions (MTS), we are a team of healthcare
-                    IT and billing experts dedicated to revolutionizing the work
-                    of healthcare providers by providing them with inventive
-                    solutions to all their administrative problems. Our experts
-                    bring precision and efficiency to every task. Being trusted
-                    by numerous healthcare providers, our company is destined to
-                    provide hassle-free medical billing and medical coding
-                    solutions, top-notch IT consultation, and cutting-edge
-                    digital Healthcare Technologies empowering healthcare
-                    providers to focus more on delivering exceptional patient
-                    care.
+                    At MedicoTech Solutions (MTS), we specialize in empowering healthcare providers with innovative IT and billing solutions. Our team of experts is dedicated to streamlining administrative tasks, ensuring precision, efficiency, and compliance in every process.
+
+                  </p>
+                  <p
+                    style={
+                      {
+                        margin: "5px 0 0 0 "
+                      }
+                    }
+                  >
+                    Trusted by numerous healthcare providers, we offer hassle-free medical billing, advanced medical coding services, and cutting-edge digital healthcare technologies. With top-tier IT consultation, we enable healthcare organizations to focus on what matters most—delivering exceptional patient care.
                   </p>
                 </div>
                 <ul className="about_iteam d-flex flex-wrap">
@@ -150,10 +150,9 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num1">01</span>
-                      <h4>Establish Contact</h4>
+                      <h4>Initial Consultation</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur ipsam adipisicing
-                        elit. Rem quia officia quaerat ipsam!
+                        We begin by understanding your specific needs and challenges through a comprehensive consultation to tailor our solutions.
                       </p>
                     </div>
                   </div>
@@ -163,10 +162,9 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num2">02</span>
-                      <h4>Analyzing Requirements</h4>
+                      <h4>Requirement Analysis</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur ipsam adipisicing
-                        elit. Rem quia officia quaerat ipsam!
+                        Our experts analyze your workflows, billing processes, and IT infrastructure to identify areas for optimization.
                       </p>
                     </div>
                   </div>
@@ -176,10 +174,9 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num3">03</span>
-                      <h4>Contracting</h4>
+                      <h4>Customized Proposal</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur ipsam adipisicing
-                        elit. Rem quia officia quaerat ipsam!
+                        Based on our analysis, we provide a customized proposal detailing our approach, timeline, and expected outcomes.
                       </p>
                     </div>
                   </div>
@@ -189,10 +186,9 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num4">04</span>
-                      <h4>Project Initiation</h4>
+                      <h4>Implementation & Support</h4>
                       <p>
-                        Lorem ipsum dolor sit amet consectetur ipsam adipisicing
-                        elit. Rem quia officia quaerat ipsam!
+                        We execute the agreed solutions and provide ongoing support to ensure seamless operations and continuous improvements.
                       </p>
                     </div>
                   </div>
@@ -200,6 +196,7 @@ const About = () => {
               </div>
             </div>
           </section>
+
           {/*============================
   PROCESS END
     ==============================*/}
