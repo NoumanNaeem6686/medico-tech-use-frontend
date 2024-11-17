@@ -365,8 +365,17 @@
   }
 
   .about_img_1 {
-    width: 420px;
-    height: 370px;
+    width: 600px;
+    height: 270px;
+  }
+
+  .main-slider-main {
+    display: flex;
+    width: 100%;
+    padding: 30px;
+    max-width: 600px;
+    padding-top: 30px;
+    flex-direction: column;
   }
 
   .about_img_2 {

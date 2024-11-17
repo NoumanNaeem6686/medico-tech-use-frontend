@@ -43,10 +43,10 @@ const About = () => {
               </div> */}
               <div className="about_img_1">
                 <img
-                  src="/audit.webp"
-                  alt="about img"
-                // className="img-fluid w-auto"
+                  src="/medical_billing.png"
+                  alt="contact img"
                 />
+
 
               </div>
               <div

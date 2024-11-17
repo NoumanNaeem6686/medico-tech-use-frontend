@@ -92,9 +92,9 @@ const MainContactPage = () => {
                 <div className="col-lg-4 wow fadeInLeft" data-wow-duration="1s">
                   <div className="contact_img">
                     <img
-                      src="images/contact_img.jpg"
-                      alt="contact img"
-                      className="img-fluid w-100"
+                      src="/audit.webp"
+                      alt="about img"
+                    // className="img-fluid w-auto"
                     />
                   </div>
                 </div>

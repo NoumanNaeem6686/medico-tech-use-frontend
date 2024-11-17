@@ -38,7 +38,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "70vh",
+                            height: "80vh",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -57,6 +57,7 @@ function HomeSlider() {
                                 flexDirection: "column"
 
                             }}
+
 
                         >
 
@@ -88,7 +89,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "70vh",
+                            height: "80vh",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -97,7 +98,6 @@ function HomeSlider() {
                         }}
                     >
                         <div
-
                             style={{
                                 display: "flex",
                                 width: "100%",
@@ -107,6 +107,7 @@ function HomeSlider() {
                                 flexDirection: "column"
 
                             }}
+
 
                         >
 
@@ -138,7 +139,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "70vh",
+                            height: "80vh",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -147,7 +148,6 @@ function HomeSlider() {
                         }}
                     >
                         <div
-
                             style={{
                                 display: "flex",
                                 width: "100%",
