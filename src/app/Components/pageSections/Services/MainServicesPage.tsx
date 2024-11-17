@@ -539,9 +539,12 @@ export default function MainServicesPage() {
               >
                 {/* Updated to cycle images */}
                 <img
-                  src={`images/service-${(index % 7) + 1}.jpg`}
+                  src={`image${index}.jpg`}
                   alt={section.title}
-                  className="img-fluid w-100"
+                  // className="img-fluid w-100"
+                  style={{
+                    borderRadius: "10px"
+                  }}
                 />
               </div>
               <div className="col-lg-6">
