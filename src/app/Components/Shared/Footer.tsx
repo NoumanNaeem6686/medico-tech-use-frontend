@@ -106,7 +106,7 @@ const Footer = () => {
                 <h5>Quick Link</h5>
                 <ul>
                   <li>
-                    <Link href="appointment">Get Appointment</Link>
+                    <Link href="/free-audit">Get Free Audit</Link>
                   </li>
                   {/* <li>
                     <Link href="#">Why Choose Us</Link>

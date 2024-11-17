@@ -3,6 +3,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { IMAGES } from "../../../../public";
+import DropdownMenu from "./DropDown";
 
 const Navbar = () => {
   const [activeTab, setActiveTab] = useState("");
@@ -68,16 +69,7 @@ const Navbar = () => {
                   About
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  href="/services"
-                  className={`nav-link ${activeTab === "/services" ? "active" : ""
-                    }`}
-                  onClick={() => handleSetActiveTab("/services")}
-                >
-                  Services
-                </Link>
-              </li>
+              <DropdownMenu />
 
               <li className="nav-item">
                 <Link

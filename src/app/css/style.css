@@ -116,6 +116,58 @@ button {
   outline: none;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-toggle {
+  background-color: #0072bc;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.dropdown-toggle:hover {
+  background-color: #005a9c;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 250px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  margin: 5px 0 0;
+  padding: 0;
+  list-style: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-menu li {
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu li a {
+  display: block;
+  padding: 12px 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #f9f9f9;
+}
+
 button:focus {
   outline: none;
 }
@@ -792,6 +844,7 @@ button:focus {
 
 .main_menu .navbar-brand {
   margin-left: 12px;
+  max-width: 120px;
 }
 
 /* for small device end */

@@ -299,11 +299,12 @@
         HOME PAGE START
     ================================*/
   .banner_text h1 {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   .banner_text p {
     max-width: 80%;
+    margin-bottom: 20px;
   }
 
   .banner_counter li {

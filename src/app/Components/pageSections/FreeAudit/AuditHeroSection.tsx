@@ -20,16 +20,16 @@ const AuditHeroSection = () => {
             >
               <div className="banner_text">
                 <h1>
-                  Find The Perfect
+                  Unlock Hidden Revenue
                   <br />
-                  Caregiver For Your
+                  with a Free
                   <br />
-                  Loved One
+                  Billing Audit
                 </h1>
                 <p>
-                  Contrary to popular belief, Lorem Ipsum is not simply random
-                  text It has roots in a piece of classical.
+                  Optimize your practice's profitability by identifying missed charges and compliance issues. Get your complimentary audit from our experts today.
                 </p>
+
                 {/* <div className="button_group">
                   <a href="appointment" className="common_btn">
                     Get Appointment

@@ -1,11 +1,18 @@
 "use client";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Link from "next/link";
 import { toast } from "react-toastify";
 
 const MainContactPage = () => {
   // State variables for form inputs
+  const [isClient, setIsClient] = useState(false)
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+  const divStyle = {
+    width: isClient && window.matchMedia("(max-width: 768px)").matches ? "100%" : "50%",
+  };
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [contactNo, setContactNo] = useState("");
@@ -90,14 +97,14 @@ const MainContactPage = () => {
             <div className="contact_form_area mt_100 xs_mt_70">
               <div className="row">
                 <div className="col-lg-4 wow fadeInLeft" data-wow-duration="1s">
-                  <div className="contact_img">
-                    <img
-                      src="/audit.webp"
-                      alt="about img"
-                    // className="img-fluid w-auto"
-                    />
-                  </div>
+                  {/* <div style={divStyle}> */}
+                  <img
+                    src="/medical_billing.png"
+                    alt="contact img"
+                    style={{ width: "100%", height: "auto" }}
+                  />
                 </div>
+                {/* </div> */}
                 <div
                   className="col-lg-8 wow fadeInRight"
                   data-wow-duration="1s"
