@@ -4,7 +4,7 @@ import React from "react";
 const HelpLine = () => {
   return (
     <>
- 
+
       <section className="helpline pt_100 xs_pt_70 pb_100 xs_pb_70">
         <div className="container">
           <div className="row justify-content-between">
@@ -23,8 +23,8 @@ const HelpLine = () => {
                 </p>
               </div>
               <ul className="helpline_iteam">
-                <li>24/7 Contact Our Hospital.</li>
-                <li>24 hours Open Our Hospital.</li>
+                <li>24/7 Contact .</li>
+                <li>24 hours Open .</li>
                 <li>Emergency Contact Our Phone Number.</li>
               </ul>
               <ul className="d-flex flex-wrap helpline_contact">
@@ -69,13 +69,13 @@ const HelpLine = () => {
       {/*============================
     TEAM START
       ==============================*/}
-      <section className="team pt_100 xs_pt_70 pb_100 xs_pb_70">
+      {/* <section className="team pt_100 xs_pt_70 pb_100 xs_pb_70">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
               <div className="common_heading center_heading mb_25">
                 <h5>our team</h5>
-                <h2>Meet Our expert doctor</h2>
+                <h2>Meet Our expert </h2>
               </div>
             </div>
           </div>
@@ -120,9 +120,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Neurology</p>
                   <span>MBBS, FCPS, FRCS</span>
-                    <Link href="/appointment">
-                        <i className="fal fa-plus" />
-                      </Link>
+                  <Link href="/appointment">
+                    <i className="fal fa-plus" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -166,9 +166,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Cardiology</p>
                   <span>MBBS, FCPS, FRCS</span>
-                    <Link href="/appointment">
-                        <i className="fal fa-plus" />
-                      </Link>
+                  <Link href="/appointment">
+                    <i className="fal fa-plus" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -212,9 +212,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Ophthalmology</p>
                   <span>MBBS, FCPS, FRCS</span>
-                    <Link href="/appointment">
-                        <i className="fal fa-plus" />
-                      </Link>
+                  <Link href="/appointment">
+                    <i className="fal fa-plus" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -258,9 +258,9 @@ const HelpLine = () => {
                   <h6>Dr. Jon Miller</h6>
                   <p>Pediatric</p>
                   <span>MBBS, FCPS, FRCS</span>
-                    <Link href="/appointment">
-                        <i className="fal fa-plus" />
-                      </Link>
+                  <Link href="/appointment">
+                    <i className="fal fa-plus" />
+                  </Link>
                 </div>
               </div>
             </div>
@@ -268,11 +268,11 @@ const HelpLine = () => {
               <a className="common_btn" href="doctor.html">
                 view more
               </a>
-            </div> */}
-          </div>
-        </div>
-      </section>
-    
+            </div> 
+    </div >
+        </div >
+      </section > */}
+
     </>
   );
 };

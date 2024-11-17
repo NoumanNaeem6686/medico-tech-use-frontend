@@ -168,18 +168,11 @@ const FaqsSection = () => {
                         >
                             <div className="faq_img">
                                 <img
-                                    src="images/faq-img.jpg"
+                                    src="/three.jpg"
                                     alt="faq"
                                     className="img-fluid w-100"
                                 />
-                                <a
-                                    className="play_btn venobox"
-                                    data-autoplay="true"
-                                    data-vbtype="video"
-                                    href="https://www.youtube.com/watch?v=i_glB8n4KLE&list=PPSV"
-                                >
-                                    <i className="fas fa-play" aria-hidden="true" />
-                                </a>
+
                             </div>
                         </div>
                     </div>

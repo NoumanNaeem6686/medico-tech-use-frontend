@@ -18,8 +18,7 @@ const Services = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="common_heading center_heading mb_15">
-                  <h5>our service</h5>
-                  <h2>our medical service</h2>
+                  <h2>our service</h2>
                 </div>
               </div>
             </div>

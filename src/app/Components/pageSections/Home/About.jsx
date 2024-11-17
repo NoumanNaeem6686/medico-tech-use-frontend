@@ -139,7 +139,7 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num1">01</span>
-                      <h4>fill the form</h4>
+                      <h4>Establish Contact</h4>
                       <p>
                         Lorem ipsum dolor sit amet consectetur ipsam adipisicing
                         elit. Rem quia officia quaerat ipsam!
@@ -152,7 +152,7 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num2">02</span>
-                      <h4>Book an Appointment</h4>
+                      <h4>Analyzing Requirements</h4>
                       <p>
                         Lorem ipsum dolor sit amet consectetur ipsam adipisicing
                         elit. Rem quia officia quaerat ipsam!
@@ -165,7 +165,7 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num3">03</span>
-                      <h4>Check-Ups</h4>
+                      <h4>Contracting</h4>
                       <p>
                         Lorem ipsum dolor sit amet consectetur ipsam adipisicing
                         elit. Rem quia officia quaerat ipsam!
@@ -178,7 +178,7 @@ const About = () => {
                   >
                     <div className="single_process">
                       <span className="process_number num4">04</span>
-                      <h4>Get Reports</h4>
+                      <h4>Project Initiation</h4>
                       <p>
                         Lorem ipsum dolor sit amet consectetur ipsam adipisicing
                         elit. Rem quia officia quaerat ipsam!
