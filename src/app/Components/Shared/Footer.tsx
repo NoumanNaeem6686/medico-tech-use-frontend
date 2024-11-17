@@ -15,23 +15,7 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12 wow fadeInUp" data-wow-duration="1s">
-              {/* <div className="subscription">
-                <div className="row justify-content-between align-items-center">
-                  <div className="col-xxl-6 col-lg-6 col-xl-7">
-                    <div className="subscribe_text">
-                      <h2>Subscribe for the Exclusive Updates!</h2>
-                    </div>
-                  </div>
-                  <div className="col-xxl-5 col-lg-6 col-xl-5">
-                    <form action="#" className="subscrib_form">
-                      <input type="text" placeholder="your Email Address" />
-                      <button className="common_btn subscrib_btn">
-                        Subscribe
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div> */}
+
             </div>
           </div>
           <div className="row mt_10 pt-5">
@@ -164,9 +148,9 @@ const Footer = () => {
           </div>
           <div className="row mt_70 xs_mt_45 sm_margin ">
             <div className="col-xl-12">
-              <div className="copyright d-flex flex-wrap justify-content-between">
+              <div className="copyright d-flex flex-wrap justify-content-center">
                 <p>© 2024 MedicoTech Soultions. All Rights Reserved</p>
-                <ul className="d-flex flex-wrap">
+                {/* <ul className="d-flex flex-wrap">
                   <li>
                     <Link href="#">Terms and conditions</Link>
                   </li>
@@ -176,7 +160,7 @@ const Footer = () => {
                   <li>
                     <Link href="#">Privacy policy</Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

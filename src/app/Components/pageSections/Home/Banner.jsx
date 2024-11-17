@@ -8,12 +8,17 @@ const Banner = () => {
     <>
       <section
         className="banner"
-        style={{ background: "url(images/banner_bg.jpg)" }}
+      // style={{ background: "url(images/banner_bg.jpg)" }}
       >
         <div className="container">
           <div className="row justify-content-between">
             <div
-              className="col-xxl-5 col-md-9 col-xl-6 col-lg-6 wow fadeInLeft"
+              className="col-xxl-5 col-md-9 col-xl-6 col-lg-6 wow fadeInLeft "
+              style={
+                {
+                  marginTop: "20px"
+                }
+              }
               data-wow-duration="1s"
             >
               <div className="banner_text">
@@ -53,7 +58,7 @@ const Banner = () => {
                 </ul>
               </div>
             </div>
-            <div
+            {/* <div
               className="col-xxl-6 col-lg-6 col-xl-6 wow fadeInRight"
               data-wow-duration="1s"
             >
@@ -94,7 +99,7 @@ const Banner = () => {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

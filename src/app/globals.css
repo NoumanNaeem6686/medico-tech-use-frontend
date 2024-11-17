@@ -1,0 +1,25 @@
+/* .slider-container .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+} */
+.slider-container {
+    margin-top: 90px;
+}
+
+.slider-container .swiper-pagination-bullet {
+    background: #ccc;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 1;
+    transition: background 0.3s ease;
+}
+
+.slider-container .swiper-pagination-bullet-active {
+    background: #333;
+}
