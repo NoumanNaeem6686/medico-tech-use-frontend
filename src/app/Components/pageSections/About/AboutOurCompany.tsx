@@ -16,7 +16,15 @@ const AboutOurCompany = () => {
               }}
             >
               <div className="about_2_img">
-                <img src="./images/about-our-company.png" alt="" />
+                <img
+                  src="image18.jpg"
+                  alt="img"
+                  style={
+                    {
+                      borderRadius: "40px"
+                    }
+                  }
+                />
               </div>
             </div>
             <div

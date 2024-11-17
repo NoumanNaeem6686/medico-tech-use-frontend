@@ -1,8 +1,17 @@
-import React from "react";
+"use client"
+
+import React, { useEffect, useState } from "react";
 
 import Services from "./Services";
 import FaqsSection from "./FaqsSection";
 const About = () => {
+  const [isClient, setIsClient] = useState(false)
+  useEffect(() => {
+    setIsClient(true)
+  }, [])
+  const divStyle = {
+    width: isClient && window.matchMedia("(max-width: 768px)").matches ? "100%" : "50%",
+  };
   return (
     <>
       <>
@@ -41,13 +50,12 @@ const About = () => {
                   </div>
                 </div>
               </div> */}
-              <div className="about_img_1">
+              <div style={divStyle}>
                 <img
                   src="/medical_billing.png"
                   alt="contact img"
+                  style={{ width: "100%", height: "auto" }}
                 />
-
-
               </div>
               <div
                 className="col-xl-6 col-sm-12 col-lg-7  wow fadeInRight"

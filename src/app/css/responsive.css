@@ -364,10 +364,14 @@
     margin: 0px 10px;
   }
 
-  .about_img_1 {
-    width: 600px;
-    height: 270px;
+  .about_img_22 {
+    width: 50% !important;
+
+    @media screen and (max-width:700px) {
+      width: 100% !important;
+    }
   }
+
 
   .main-slider-main {
     display: flex;

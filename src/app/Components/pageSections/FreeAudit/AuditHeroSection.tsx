@@ -5,7 +5,7 @@ const AuditHeroSection = () => {
     <>
       <section
         className="banner banner_3"
-        style={{ background: "url(images/banner-bg-h3.jpg)" }}
+        style={{ background: "url(/image8.jpg)" }}
       >
         <div className="container">
           <div className="row">

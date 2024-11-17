@@ -121,8 +121,8 @@ button:focus {
 }
 
 :root {
-  --colorPrimary: #00a6fb;
-  --colorSecondary: #2ac28e;
+  --colorPrimary: #050A30;
+  --colorSecondary: #107ACC;
   --colorDeepblue: #4589f4;
   --paraColor: #5c728e;
   --colorBlack: #031d36;
@@ -584,7 +584,7 @@ button:focus {
 .main_menu .navbar-brand {
   margin: 0;
   padding: 0;
-  max-width: 150px;
+  max-width: 120px;
 }
 
 .main_menu .navbar-nav .nav-item {

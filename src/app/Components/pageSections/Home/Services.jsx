@@ -47,14 +47,14 @@ const Services = () => {
                       <i className="fas fa-eye" />
                     </span>
                     <img
-                      src="images/service-1.jpg"
+                      src="image13.jpg"
                       alt="service img"
-                      className="img-fluid w-100"
+                      className=" w-100"
                     />
                   </div>
                   <div className="service_text">
                     <a href="service_details.html" className="service_heading">
-                      MEDICAL BILLING AND CODING
+                      Regulatory Compalines
                     </a>
                     <p>
                       Expert coding for accurate claims and reduced denials.
@@ -72,14 +72,15 @@ const Services = () => {
                       <i className="fas fa-heartbeat" />
                     </span>
                     <img
-                      src="images/service-2.jpg"
+                      src="image12.jpg"
+
                       alt="service img"
                       className="img-fluid w-100"
                     />
                   </div>
                   <div className="service_text">
                     <a href="service_details.html" className="service_heading">
-                      REVENUE CYCLE MANAGEMENT (RCM)
+                      Tablet, night, scientist
                     </a>
                     <p>
                       Optimize your revenue cycle with data-driven solutions
@@ -98,14 +99,14 @@ const Services = () => {
                       <i className="fas fa-capsules" />
                     </span>
                     <img
-                      src="images/service-3.jpg"
+                      src="image15.jpg"
                       alt="service img"
                       className="img-fluid w-100"
                     />
                   </div>
                   <div className="service_text">
                     <a href="service_details.html" className="service_heading">
-                      IT CONSULTING
+                      Custom HER Hospital
                     </a>
                     <p>
                       Boost efficiency with our tailored MedicoTech IT solutions
@@ -123,14 +124,42 @@ const Services = () => {
                       <i className="fas fa-heartbeat" />
                     </span>
                     <img
-                      src="images/service-2.jpg"
+                      src="image14.jpg"
+
                       alt="service img"
                       className="img-fluid w-100"
                     />
                   </div>
                   <div className="service_text">
                     <a href="service_details.html" className="service_heading">
-                      DIGITAL HEALTH SOLUTIONS
+                      Medicaltech research, innovative
+                    </a>
+                    <p>
+                      Enhance patient care through innovative digital health
+                      solutions.
+                    </p>
+                    <a href="service_details.html" className="service_link">
+                      read more <i className="far fa-long-arrow-right" />
+                    </a>
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide>
+                <div className="single_service">
+                  <div className="service_img">
+                    <span className="tf_service_icon tf_service_icon4">
+                      <i className="fas fa-heartbeat" />
+                    </span>
+                    <img
+                      src="image10.jpg"
+
+                      alt="service img"
+                      className="img-fluid w-100"
+                    />
+                  </div>
+                  <div className="service_text">
+                    <a href="service_details.html" className="service_heading">
+                      Medicine Doctor and Digital
                     </a>
                     <p>
                       Enhance patient care through innovative digital health

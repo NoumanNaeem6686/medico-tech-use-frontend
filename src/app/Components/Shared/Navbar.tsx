@@ -26,7 +26,14 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg main_menu">
         <div className="container">
           <Link className="navbar-brand" href="/">
-            <img src={IMAGES.LOGO} alt="logo" className="img-fluid w-100" />
+            <img src={"/logo.png"} alt="logo"
+
+              style={
+                {
+                  height: "70px",
+                  width: "70px"
+                }
+              } />
           </Link>
           <button
             className="navbar-toggler"
@@ -54,9 +61,8 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   href="/about"
-                  className={`nav-link ${
-                    activeTab === "/about" ? "active" : ""
-                  }`}
+                  className={`nav-link ${activeTab === "/about" ? "active" : ""
+                    }`}
                   onClick={() => handleSetActiveTab("/about")}
                 >
                   About
@@ -65,31 +71,19 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   href="/services"
-                  className={`nav-link ${
-                    activeTab === "/services" ? "active" : ""
-                  }`}
+                  className={`nav-link ${activeTab === "/services" ? "active" : ""
+                    }`}
                   onClick={() => handleSetActiveTab("/services")}
                 >
                   Services
                 </Link>
               </li>
-              <li className="nav-item">
-                <Link
-                  href="/careers"
-                  className={`nav-link ${
-                    activeTab === "/careers" ? "active" : ""
-                  }`}
-                  onClick={() => handleSetActiveTab("/careers")}
-                >
-                  Careers
-                </Link>
-              </li>
+
               <li className="nav-item">
                 <Link
                   href="/blog"
-                  className={`nav-link ${
-                    activeTab === "/blog" ? "active" : ""
-                  }`}
+                  className={`nav-link ${activeTab === "/blog" ? "active" : ""
+                    }`}
                   onClick={() => handleSetActiveTab("/blog")}
                 >
                   Blog
@@ -98,9 +92,8 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   href="/free-audit"
-                  className={`nav-link ${
-                    activeTab === "/free-audit" ? "active" : ""
-                  }`}
+                  className={`nav-link ${activeTab === "/free-audit" ? "active" : ""
+                    }`}
                   onClick={() => handleSetActiveTab("/free-audit")}
                 >
                   Free Audit
@@ -109,9 +102,8 @@ const Navbar = () => {
               <li className="nav-item">
                 <Link
                   href="/contact"
-                  className={`nav-link ${
-                    activeTab === "/contact" ? "active" : ""
-                  }`}
+                  className={`nav-link ${activeTab === "/contact" ? "active" : ""
+                    }`}
                   onClick={() => handleSetActiveTab("/contact")}
                 >
                   Contact
