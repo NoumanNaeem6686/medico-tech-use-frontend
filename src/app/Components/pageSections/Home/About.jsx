@@ -84,28 +84,31 @@ const About = () => {
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    Electronic Health Records
+                    Outsourcing with MTS
+
                   </li>
                   <li>
                     <i
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    Dashboard
+                    Consultation Services
+
                   </li>
                   <li>
                     <i
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    RPA
+                    Practice Management
+
                   </li>
                   <li>
                     <i
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    Trans Capture APP
+                    Training and Development
                   </li>
 
                 </ul>
