@@ -12,7 +12,7 @@ const About = () => {
         <section className="about pt_100 xs_pt_70 pb_100 xs_pb_70">
           <div className="container">
             <div className="row">
-              <div
+              {/* <div
                 className="col-xl-6 col-sm-9  col-lg-5 col-md-7 wow fadeInLeft"
                 data-wow-duration="1s"
               >
@@ -40,6 +40,14 @@ const About = () => {
                     </a>
                   </div>
                 </div>
+              </div> */}
+              <div className="about_img_1">
+                <img
+                  src="/audit.webp"
+                  alt="about img"
+                // className="img-fluid w-auto"
+                />
+
               </div>
               <div
                 className="col-xl-6 col-sm-12 col-lg-7  wow fadeInRight"
@@ -68,36 +76,30 @@ const About = () => {
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    Ambulance Services
+                    Electronic Health Records
                   </li>
                   <li>
                     <i
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    Oxygen on Wheel
+                    Dashboard
                   </li>
                   <li>
                     <i
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    Pharmacy on Clinic
+                    RPA
                   </li>
                   <li>
                     <i
                       className="fas fa-check"
                       style={{ color: "#00A6FB" }}
                     ></i>{" "}
-                    On duty Doctors
+                    Trans Capture APP
                   </li>
-                  <li>
-                    <i
-                      className="fas fa-check"
-                      style={{ color: "#00A6FB" }}
-                    ></i>{" "}
-                    24/7 Medical Emergency
-                  </li>
+
                 </ul>
 
                 <a href="about.html" className="common_btn">
