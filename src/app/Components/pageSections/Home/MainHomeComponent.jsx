@@ -6,13 +6,17 @@ import Testimonials from "./Testimonials";
 import HomeSlider from "./HomeSlider";
 import Certification from "./Certification";
 import AboutUs from "./About-Us";
-
+import OurServices from './Our-Services'
+import Services from "./Services";
+import GrowthNumbers from "./Growth";
 const MainHomeComponent = () => {
   return (
     <div>
       <HomeSlider />
       <AboutUs />
-      <About />
+      <Services />
+      <GrowthNumbers />
+      {/* <About /> */}
       <HelpLine />
       <Certification />
       <Testimonials />

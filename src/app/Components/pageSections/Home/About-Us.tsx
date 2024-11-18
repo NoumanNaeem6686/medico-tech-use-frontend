@@ -25,7 +25,7 @@ function AboutUs() {
                             <div className="w-full flex-col justify-center items-start gap-6 flex">
                                 <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                     <div
-                                        className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                                        className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
                                             33+ Years
@@ -35,7 +35,7 @@ function AboutUs() {
                                         </p>
                                     </div>
                                     <div
-                                        className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                                        className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
                                             500+ Practices Supported
@@ -47,7 +47,7 @@ function AboutUs() {
                                 </div>
                                 <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                     <div
-                                        className="w-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                                        className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
                                             50+ Healthcare Industry Awards
@@ -57,7 +57,7 @@ function AboutUs() {
                                         </p>
                                     </div>
                                     <div
-                                        className="w-full h-full p-3.5 rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
+                                        className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
                                             99% Client Satisfaction

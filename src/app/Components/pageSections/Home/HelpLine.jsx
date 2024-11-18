@@ -6,7 +6,7 @@ import React from "react";
 const HelpLine = () => {
   return (
     <>
-      <section className="helpline pt_100 xs_pt_70 pb_100 xs_pb_70">
+      <section className="helpline pt_100 xs_pt_70 pb_100 xs_pb_70 px-4 sm:px-8">
         <div className="container">
           <div className="row justify-content-between">
             <div
@@ -14,7 +14,6 @@ const HelpLine = () => {
               data-wow-duration="1s"
             >
               <div className="common_heading">
-                <h5>Emergency Helpline</h5>
                 <h2>We're Here to Help, Anytime</h2>
                 <p>
                   At MedicoTech Solutions, we prioritize your healthcare needs.

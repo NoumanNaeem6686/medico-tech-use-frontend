@@ -17,7 +17,7 @@ const About = () => {
     <>
       <>
 
-
+        {/* 
         <section className="about pt_100 xs_pt_70 pb_100 xs_pb_70">
           <div className="container">
             <div className="row">
@@ -49,7 +49,7 @@ const About = () => {
                     </a>
                   </div>
                 </div>
-              </div> */}
+              </div> 
               <div style={divStyle}>
                 <img
                   src="/medical_billing.png"
@@ -63,7 +63,7 @@ const About = () => {
               >
                 <div className="common_heading">
                   <h5>about us</h5>
-                  {/* <h2>The Great Place of Medical Hospital Center.</h2> */}
+                  {/* <h2>The Great Place of Medical Hospital Center.</h2>
                   <p>
                     At MedicoTech Solutions (MTS), we specialize in empowering healthcare providers with innovative IT and billing solutions. Our team of experts is dedicated to streamlining administrative tasks, ensuring precision, efficiency, and compliance in every process.
 
@@ -119,7 +119,7 @@ const About = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {/*============================
   ABOUT END
     ==============================*/}
@@ -130,7 +130,7 @@ const About = () => {
   PROCESS START
     ==============================*/}
           <section
-            className="process pt_100 xs_pt_70 pb_95 xs_pb_65"
+            className="px-3 py-7 md:p-7"
             style={{ background: "url(images/work_bg.jpg)" }}
           >
             <div className="container process_shape">
