@@ -26,7 +26,7 @@ const Footer = () => {
                   />
                 </Link>
                 <div className="tf_footer_icon d-flex flex-wrap align-items-center">
-                  <ul className="d-flex flex-wrap">
+                  {/* <ul className="d-flex flex-wrap">
                     <li>
                       <Link href="#">
                         <i className="fab fa-facebook-f" />
@@ -47,7 +47,37 @@ const Footer = () => {
                         <i className="fab fa-linkedin-in" />
                       </Link>
                     </li>
-                  </ul>
+                  </ul> */}
+
+                  <div className="col-xl-3 col-lg-3 d-md-none d-lg-block">
+                    <ul className="flex items-center">
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-facebook-f" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-twitter" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-youtube" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-instagram" />
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i className="fab fa-linkedin-in" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

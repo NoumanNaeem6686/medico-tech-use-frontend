@@ -32,6 +32,7 @@ const Page = () => {
           setError("Blog data not found");
         }
       } catch (error) {
+        console.log("🚀 ~ fetchBlogData ~ error:", error)
         console.error("Failed to fetch blog data:", error);
         setError("Failed to fetch blog data");
       } finally {
