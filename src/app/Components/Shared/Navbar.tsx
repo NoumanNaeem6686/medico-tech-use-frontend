@@ -14,31 +14,22 @@ import {
 
 const services = [
   {
-    title: "Regulatory Compliance",
-    href: "/services/regulatory-compliance",
-    description: "Ensure your practice meets all necessary legal and operational standards with expert compliance solutions.",
+    title: "Consultation and Advisory Services",
+    href: "/services/consultation-advisory",
+    description: "Expert guidance to enhance healthcare practice efficiency, revenue, and patient care.",
   },
   {
-    title: "Revenue Cycle Optimization",
-    href: "/services/revenue-cycle-optimization",
-    description: "Maximize your practice’s financial performance with data-driven revenue cycle management strategies.",
+    title: "Training and Development",
+    href: "/services/training-development",
+    description: "Comprehensive training programs to empower healthcare teams with in-demand skills.",
   },
   {
-    title: "Custom HER Solutions",
-    href: "/services/custom-her-solutions",
-    description: "Boost efficiency with tailored electronic health record (EHR) solutions designed for your practice.",
-  },
-  {
-    title: "Innovative Digital Health",
-    href: "/services/innovative-digital-health",
-    description: "Leverage cutting-edge digital health technologies to enhance patient care and streamline workflows.",
-  },
-  {
-    title: "Digital Medicine Solutions",
-    href: "/services/digital-medicine-solutions",
-    description: "Empower your practice with virtual medical assistance and evidence-based clinical decision tools.",
+    title: "Outsourcing Services",
+    href: "/services/outsourcing",
+    description: "Streamline operations and reduce costs with tailored healthcare outsourcing solutions.",
   },
 ];
+
 
 function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
