@@ -18,7 +18,10 @@ const MainHomeComponent = () => {
       <AboutUs />
       <Services />
       <GrowthNumbers />
-      <section className="py-16">
+      <section className="py-16"
+        data-aos="flip-left"
+
+      >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div
             class="lg:py-14 lg:px-20 p-10 rounded-2xl flex items-center justify-between flex-col lg:flex-row"

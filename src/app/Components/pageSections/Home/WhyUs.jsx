@@ -9,11 +9,15 @@ function WhyUs() {
                     <div className="lg:pr-8 lg:pt-4">
                         <div className="lg:max-w-lg">
                             <h2 className="text-base font-semibold leading-7 text-secondaryColor">Why Choose Us</h2>
-                            <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> Transforming Healthcare Billing</p>
-                            <p className="mt-6 text-lg leading-8 text-gray-600">  We provide efficient, reliable, and innovative medical billing solutions that enhance your practice's financial performance and operational efficiency.
+                            <p
+                                data-aos="fade-right"
+                                className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"> Transforming Healthcare Billing</p>
+                            <p
+                                data-aos="fade-down"
+                                className="mt-6 text-lg leading-8 text-gray-600">  We provide efficient, reliable, and innovative medical billing solutions that enhance your practice's financial performance and operational efficiency.
                             </p>
                             <dl className="mt-10 max-w-xl space-y-8 text-base leading-7 text-gray-600 lg:max-w-none">
-                                <div className="relative pl-9">
+                                <div className="relative pl-9" data-aos="fade-right">
                                     <dt className="inline font-semibold text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                                         fill="currentColor" aria-hidden="true" className="absolute left-1 top-1 h-5 w-5 text-secondaryColor">
                                         <path
@@ -30,7 +34,7 @@ function WhyUs() {
                                     <dd className="inline"> Save thousands with our pay-for-performance model. Enjoy free software installation and seamless denied claims appeals.
                                     </dd>
                                 </div>
-                                <div className="relative pl-9">
+                                <div className="relative pl-9" data-aos="fade-right">
                                     <dt className="inline font-semibold text-gray-900">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"
                                             className="absolute left-1 top-1 h-5 w-5 text-secondaryColor">
@@ -42,7 +46,7 @@ function WhyUs() {
                                     </dt>
                                     <dd className="inline"> Reduce turnaround time with efficient electronic billing systems and ERA setup, ensuring timely payments.</dd>
                                 </div>
-                                <div className="relative pl-9">
+                                <div className="relative pl-9" data-aos="fade-right">
                                     <dt className="inline font-semibold text-gray-900"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"
                                         fill="currentColor" aria-hidden="true" className="absolute left-1 top-1 h-5 w-5 text-secondaryColor">
                                         <path fill-rule="evenodd"

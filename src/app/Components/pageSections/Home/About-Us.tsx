@@ -13,10 +13,12 @@ function AboutUs() {
                                 </h6>
                                 <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
                                     <h2
+                                        data-aos="fade-right"
                                         className="text-primaryColor  text-4xl font-bold font-manrope leading-normal lg:text-start text-start">
                                         Where Healthcare Meets Innovation
                                     </h2>
                                     <p
+                                        data-aos="fade-up-left"
                                         className="text-gray-500 text-base font-normal leading-relaxed lg:text-start text-center">
                                         Embrace the future of healthcare with our advanced solutions. From streamlining medical billing to cutting-edge IT consultation, we empower you to deliver the highest quality patient care.
                                         .</p>
@@ -25,6 +27,7 @@ function AboutUs() {
                             <div className="w-full flex-col justify-center items-start gap-6 flex">
                                 <div className="w-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                     <div
+                                        data-aos="zoom-in"
                                         className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
@@ -35,6 +38,7 @@ function AboutUs() {
                                         </p>
                                     </div>
                                     <div
+                                        data-aos="zoom-in"
                                         className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
@@ -47,6 +51,7 @@ function AboutUs() {
                                 </div>
                                 <div className="w-full h-full justify-start items-center gap-8 grid md:grid-cols-2 grid-cols-1">
                                     <div
+                                        data-aos="zoom-in"
                                         className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">
@@ -57,6 +62,7 @@ function AboutUs() {
                                         </p>
                                     </div>
                                     <div
+                                        data-aos="zoom-in"
                                         className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
                                     >
                                         <h4 className="text-gray-900 text-2xl font-bold font-manrope leading-9">

@@ -33,12 +33,16 @@ const GrowthNumbers = () => {
         <section className="py-16 bg-gray-50">
             <div className="container mx-auto px-6 flex flex-col lg:flex-row">
                 <div className="text-start mb-12 w-full lg:w-[45%] md:px-6">
-                    <h2 className="text-5xl text-secondaryColor font-bold mb-4 text-start">
+                    <h2
+                        data-aos="fade-right"
+                        className="text-5xl text-secondaryColor font-bold mb-4 text-start">
 
                         Our Growth
                         in Numbers
                     </h2>
-                    <p className="text-gray-600 text-start">
+                    <p
+                        data-aos="fade-up"
+                        className="text-gray-600 text-start">
                         Our journey in healthcare and consulting is reflected in our achievements.
                         From empowering healthcare organizations with innovative solutions to
                         delivering measurable results, our numbers showcase our commitment to excellence.
@@ -58,6 +62,7 @@ const GrowthNumbers = () => {
                     {stats.map((stat, index) => (
                         <div
                             key={index}
+                            data-aos="flip-left"
                             className="w-full h-full p-3.5 hover:scale-[1.05] hover:bg-slate-100 cursor-pointer rounded-xl border border-gray-200 hover:border-gray-400 transition-all duration-700 ease-in-out flex-col justify-start items-start gap-2.5 inline-flex"
 
                         >

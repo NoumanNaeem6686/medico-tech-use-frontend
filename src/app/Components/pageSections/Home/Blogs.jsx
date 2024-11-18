@@ -8,13 +8,14 @@ const Blogs = () => {
           <div className="row">
             <div className="col-xl-12">
               <div className="common_heading center_heading mb_15">
-                <h5>Latest Blogs</h5>
-                <h2>Insights &amp; Innovations in Healthcare</h2>
+                <h5 data-aos="fade-right"> Latest Blogs</h5>
+                <h2 data-aos="fade-down">Insights &amp; Innovations in Healthcare</h2>
               </div>
             </div>
           </div>
           <div className="row">
             <div
+              data-aos="zoom-in"
               className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
               data-wow-duration="1s"
             >
@@ -51,6 +52,8 @@ const Blogs = () => {
               </div>
             </div>
             <div
+              data-aos="zoom-in"
+
               className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
               data-wow-duration="1s"
             >
@@ -87,6 +90,7 @@ const Blogs = () => {
               </div>
             </div>
             <div
+              data-aos="zoom-in"
               className="col-xl-4 col-md-6 col-lg-4 wow fadeInUp"
               data-wow-duration="1s"
             >

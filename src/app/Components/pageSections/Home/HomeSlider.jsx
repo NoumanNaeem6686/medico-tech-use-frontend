@@ -62,12 +62,14 @@ function HomeSlider() {
                         >
 
                             <h1
-                                className="text-4xl font-bold"
+                                className="text-4xl font-bold "
+                                data-aos="fade-right"
                             >Get comprehensive Medical Billing Audit</h1>
                             <p
                                 style={{
                                     margin: "20px 0px"
                                 }}
+                                data-aos="fade-down"
                             >
                                 Discover clarity and efficiency in your revenue streams through our specialized medical billing audit services.
                             </p>
@@ -110,12 +112,13 @@ function HomeSlider() {
 
                             <h1
                                 className="text-4xl font-bold"
-
+                                data-aos="fade-right"
                             >Efficient Revenue Cycle Management Services</h1>
                             <p
                                 style={{
                                     margin: "20px 0px"
                                 }}
+                                data-aos="fade-down"
                             >
                                 Maximize your revenue potential with our streamlined RCM services tailored to your medical practice needs.
                             </p>
@@ -154,11 +157,13 @@ function HomeSlider() {
                         >
 
                             <h1 className="text-4xl font-bold"
+                                data-aos="fade-right"
                             >Tailored Medical Billing Services For Your Practice</h1>
                             <p
                                 style={{
                                     margin: "20px 0px"
                                 }}
+                                data-aos="fade-down"
                             >
                                 Minimize administrative burdens and fast reimbursement with our comprehensive medical billing services.
                             </p>

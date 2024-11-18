@@ -14,8 +14,8 @@ const HelpLine = () => {
               data-wow-duration="1s"
             >
               <div className="common_heading">
-                <h2>We're Here to Help, Anytime</h2>
-                <p>
+                <h2 data-aos="fade-right">We're Here to Help, Anytime</h2>
+                <p data-aos="fade-down">
                   At MedicoTech Solutions, we prioritize your healthcare needs.
                   Whether you have an emergency, need assistance with billing,
                   or require expert guidance, our team is available 24/7 to support you.

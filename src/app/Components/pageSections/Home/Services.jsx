@@ -78,7 +78,7 @@ const Services = () => {
           >
             {services.map((service) => (
               <SwiperSlide key={service.id}>
-                <div className="single_service">
+                <div className="single_service" data-aos="zoom-in">
                   <div className="service_img">
                     <img
                       src={service.imgSrc}

@@ -16,6 +16,7 @@ import Footer from "./Components/Shared/Footer";
 import Navbar from "./Components/Shared/Navbar";
 import Header from "./Components/pageSections/Home/Header";
 import "./globals.css";
+import { AOSProvider } from "@/lib/aos";
 
 // Metadata configuration
 export const metadata = {
@@ -47,7 +48,9 @@ export default function RootLayout({
         />
         <Header />
         <Navbar />
-        {children}
+        <AOSProvider>
+          {children}
+        </AOSProvider>
         <Footer />
         <ToastContainer />
       </body>
