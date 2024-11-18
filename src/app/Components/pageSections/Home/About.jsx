@@ -16,10 +16,7 @@ const About = () => {
   return (
     <>
       <>
-        {/*============================
-  ABOUT START
-    ==============================*/}
-        <Banner />
+
 
         <section className="about pt_100 xs_pt_70 pb_100 xs_pb_70">
           <div className="container">

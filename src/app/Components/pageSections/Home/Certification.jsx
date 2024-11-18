@@ -3,16 +3,8 @@ import React from 'react'
 function Certification() {
     return (
         <>
-            <div className='main-div'>
-                <div className='text-xl bg-green-500'>
-                    Hi
-                </div>
-                <div className='text-xl bg-green-500'>
-                    Hi
-                </div>
-                <div className='text-xl text-blue-500'>
-                    Hi
-                </div>
+            <div className='flex flex-col md:flex-wrap w-full'>
+
 
             </div>
 
