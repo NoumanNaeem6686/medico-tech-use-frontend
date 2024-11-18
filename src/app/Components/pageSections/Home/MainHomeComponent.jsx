@@ -1,5 +1,6 @@
 import About from "./About";
 import Banner from "./Banner";
+import WhyUs from './WhyUs'
 import Blogs from "./Blogs";
 import HelpLine from "./HelpLine";
 import Testimonials from "./Testimonials";
@@ -35,7 +36,7 @@ const MainHomeComponent = () => {
 
             </div>
             <Link
-              href="#"
+              href="/free-audit"
               className="flex items-center gap-2 bg-white rounded-full shadow-sm text-lg text-indigo-600 font-semibold py-4 px-8 transition-all duration-500"
             >Get In Touch
               <svg
@@ -60,9 +61,10 @@ const MainHomeComponent = () => {
 
       {/* <About /> */}
       <HelpLine />
-      <Certification />
+      <WhyUs />
       <Testimonials />
-      {/* <Blogs /> */}
+      <Certification />
+      <Blogs />
     </div>
   );
 };

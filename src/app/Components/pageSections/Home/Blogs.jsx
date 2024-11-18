@@ -3,16 +3,13 @@ import React from "react";
 const Blogs = () => {
   return (
     <>
-      {/*============================
-  BLOG START
-    ==============================*/}
       <section className="blog pt_100 xs_pt_70 pb_100 xs_pb_70">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
               <div className="common_heading center_heading mb_15">
-                <h5>Latest News</h5>
-                <h2>Latest Post &amp; Articles</h2>
+                <h5>Latest Blogs</h5>
+                <h2>Insights &amp; Innovations in Healthcare</h2>
               </div>
             </div>
           </div>
@@ -23,50 +20,32 @@ const Blogs = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category">
-                    Medical
-                  </a>
                   <img
-                    src="images/blog-1.jpg"
+                    src="/image1.jpg"
                     alt="blog img"
                     className=" img-fluid w-100"
                   />
                 </div>
                 <div className="blog_text">
                   <ul className="d-flex flex-wrap blog_date">
-                    <li>
-                      <i className="fas fa-user" />
-                      Admin
-                    </li>
+
                     <li>
                       <i className="fas fa-calendar-alt" />
-                      22 june 2023
+                      22 June 2024
                     </li>
                   </ul>
                   <a href="blog-detail" className="blog_heading">
-                    Telehealth Services Are Ready To Help Your Family
+                    The Rise of Telehealth: Transforming Patient Care
                   </a>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur ipsum.
+                    Explore how telehealth is reshaping the healthcare
+                    landscape, providing accessible and efficient care for
+                    patients globally.
                   </p>
                   <div className="blog_text_icon">
                     <a className="blog_link" href="blog-detail">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    {/* <ul className="d-flex flex-wrap blog_react">
-                      <li>
-                        <i className="fas fa-comment-lines" />5
-                      </li>
-                      <li>
-                        <i className="fas fa-heart" />
-                        20
-                      </li>
-                      <li>
-                        <i className="fas fa-share-alt" />
-                        15
-                      </li>
-                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -77,50 +56,32 @@ const Blogs = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category blue">
-                    Hospital
-                  </a>
                   <img
-                    src="images/blog-2.jpg"
+                    src="/image2.jpg"
                     alt="blog img"
                     className=" img-fluid w-100"
                   />
                 </div>
                 <div className="blog_text">
                   <ul className="d-flex flex-wrap blog_date">
-                    <li>
-                      <i className="fas fa-user" />
-                      Admin
-                    </li>
+
                     <li>
                       <i className="fas fa-calendar-alt" />
-                      22 june 2023
+                      22 June 2024
                     </li>
                   </ul>
                   <a href="blog-detail" className="blog_heading">
-                    Doccure – Making your clinic painless visit
+                    Revolutionizing Medical Billing with AI
                   </a>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur amet.
+                    Discover how AI-driven solutions streamline medical billing
+                    processes, reducing errors and improving efficiency for
+                    healthcare providers.
                   </p>
                   <div className="blog_text_icon">
                     <a className="blog_link" href="blog-detail">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    {/* <ul className="d-flex flex-wrap blog_react">
-                      <li>
-                        <i className="fas fa-comment-lines" />5
-                      </li>
-                      <li>
-                        <i className="fas fa-heart" />
-                        20
-                      </li>
-                      <li>
-                        <i className="fas fa-share-alt" />
-                        15
-                      </li>
-                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -131,50 +92,32 @@ const Blogs = () => {
             >
               <div className="single_blog">
                 <div className="blog_img">
-                  <a href="#" className="category red">
-                    Doctor
-                  </a>
                   <img
-                    src="images/blog-3.jpg"
+                    src="/image3.jpg"
                     alt="blog img"
                     className=" img-fluid w-100"
                   />
                 </div>
                 <div className="blog_text">
                   <ul className="d-flex flex-wrap blog_date">
-                    <li>
-                      <i className="fas fa-user" />
-                      Admin
-                    </li>
+
                     <li>
                       <i className="fas fa-calendar-alt" />
-                      22 june 2023
+                      22 June 2024
                     </li>
                   </ul>
                   <a href="blog-detail" className="blog_heading">
-                    What are the benefits of Online Doctor Booking
+                    Enhancing Practice Efficiency Through EHR Systems
                   </a>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing.
-                    Veritatis consectetur.
+                    Learn how custom electronic health record (EHR) solutions
+                    can improve workflow and patient care in healthcare
+                    practices.
                   </p>
                   <div className="blog_text_icon">
                     <a className="blog_link" href="blog-detail">
                       read more <i className="far fa-long-arrow-right" />
                     </a>
-                    {/* <ul className="d-flex flex-wrap blog_react">
-                      <li>
-                        <i className="fas fa-comment-lines" />5
-                      </li>
-                      <li>
-                        <i className="fas fa-heart" />
-                        20
-                      </li>
-                      <li>
-                        <i className="fas fa-share-alt" />
-                        15
-                      </li>
-                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -182,9 +125,6 @@ const Blogs = () => {
           </div>
         </div>
       </section>
-      {/*============================
-  BLOG END
-    ==============================*/}
     </>
   );
 };
