@@ -10,7 +10,7 @@ import Link from "next/link";
 
 function HomeSlider() {
     return (
-        <div className="slider-container">
+        <div className="-mt-4">
             <Swiper
                 slidesPerView={1}
                 spaceBetween={28}
@@ -38,7 +38,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "30rem",
+                            height: "25rem",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -61,14 +61,9 @@ function HomeSlider() {
 
                         >
 
-                            <h1 style={
-                                {
-                                    fontWeight: "700",
-                                    margin: "40px 0 0 0 "
-
-
-                                }
-                            }>Get comprehensive Medical Billing Audit</h1>
+                            <h1
+                                className="text-4xl font-bold"
+                            >Get comprehensive Medical Billing Audit</h1>
                             <p
                                 style={{
                                     margin: "20px 0px"
@@ -89,7 +84,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "30rem",
+                            height: "25rem",
 
                             marginTop: "20px",
                             width: "100vw",
@@ -112,14 +107,11 @@ function HomeSlider() {
 
                         >
 
-                            <h1 style={
-                                {
-                                    fontWeight: "700",
-                                    margin: "40px 0 0 0 "
 
+                            <h1
+                                className="text-4xl font-bold"
 
-                                }
-                            }>Efficient Revenue Cycle Management Services</h1>
+                            >Efficient Revenue Cycle Management Services</h1>
                             <p
                                 style={{
                                     margin: "20px 0px"
@@ -140,7 +132,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "30rem",
+                            height: "25rem",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -161,14 +153,8 @@ function HomeSlider() {
 
                         >
 
-                            <h1 style={
-                                {
-                                    fontWeight: "700",
-                                    margin: "40px 0 0 0 "
-
-
-                                }
-                            }>Tailored Medical Billing Services For Your Practice</h1>
+                            <h1 className="text-4xl font-bold"
+                            >Tailored Medical Billing Services For Your Practice</h1>
                             <p
                                 style={{
                                     margin: "20px 0px"
