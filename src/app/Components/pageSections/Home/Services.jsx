@@ -5,12 +5,13 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
+import Link from "next/link";
 
 const Services = () => {
   const services = [
     {
       id: 1,
-      title: "Consultation Services",
+      title: "consultation-advisory",
       description: "Navigating healthcare complexities is our specialty. At MTS, we provide actionable strategies to boost your operational efficiency and financial health.",
       details: [
         "Practice Management Consulting: Enhance patient care delivery and operational efficiency.",
@@ -33,7 +34,7 @@ const Services = () => {
         "Webinars and Workshops: Interactive sessions for meaningful insights."
       ],
       cta: "Join our Training and Development Program Today!",
-      link: "/services/training-and-development",
+      link: "/services/training-development",
       imgSrc: "image12.jpg",
     },
     {
@@ -46,7 +47,7 @@ const Services = () => {
         "Staffing and Workforce Solutions: Tailored solutions for optimal talent management."
       ],
       cta: "Simplify success with Reliable Outsourcing Opportunities!",
-      link: "/services/outsourcing-services",
+      link: "/services/outsourcing",
       imgSrc: "image15.jpg",
     }
   ];
@@ -90,9 +91,9 @@ const Services = () => {
                     <h3 className="service_heading">{service.title}</h3>
                     <p>{service.description}</p>
                     <p className="cta">{service.cta}</p>
-                    <a href={service.link} className="service_link">
+                    <Link href={service.link} className="service_link">
                       Read more <i className="far fa-long-arrow-right" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>
