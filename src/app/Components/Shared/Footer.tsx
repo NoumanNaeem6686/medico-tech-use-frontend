@@ -5,9 +5,6 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      {/*============================
-    FOOTER START
-      ==============================*/}
       <footer
         className="mt_60"
         style={{ background: "url(images/footer_bg.jpg)" }}
@@ -28,16 +25,7 @@ const Footer = () => {
                     className="img-fluid w-100"
                   />
                 </Link>
-                <p>
-                  There are to popular belie Lorem is Ipsum is not simply
-                  random.
-                </p>
-                <div className="footer_mail">
-                  <span>Hello to :</span>
-                  <Link href="#">Support@medicotechsolutions.com</Link>
-                </div>
                 <div className="tf_footer_icon d-flex flex-wrap align-items-center">
-                  <span>Follow :</span>
                   <ul className="d-flex flex-wrap">
                     <li>
                       <Link href="#">

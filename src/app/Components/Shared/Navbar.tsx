@@ -21,9 +21,7 @@ const Navbar = () => {
 
   return (
     <>
-      {/*============================
-        MAIN MENU START
-        ==============================*/}
+
       <nav className="navbar navbar-expand-lg main_menu">
         <div className="container">
           <Link className="navbar-brand" href="/">

@@ -38,7 +38,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "80vh",
+                            height: "30rem",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -89,7 +89,8 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "80vh",
+                            height: "30rem",
+
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",
@@ -139,7 +140,7 @@ function HomeSlider() {
                 <SwiperSlide>
                     <div
                         style={{
-                            height: "80vh",
+                            height: "30rem",
                             marginTop: "20px",
                             width: "100vw",
                             backgroundPosition: "center",

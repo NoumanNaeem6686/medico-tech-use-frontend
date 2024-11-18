@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 
 import Services from "./Services";
 import FaqsSection from "./FaqsSection";
+import Banner from "./Banner";
 const About = () => {
   const [isClient, setIsClient] = useState(false)
   useEffect(() => {
@@ -18,6 +19,8 @@ const About = () => {
         {/*============================
   ABOUT START
     ==============================*/}
+        <Banner />
+
         <section className="about pt_100 xs_pt_70 pb_100 xs_pb_70">
           <div className="container">
             <div className="row">
@@ -124,7 +127,7 @@ const About = () => {
   ABOUT END
     ==============================*/}
         <Services />
-        <FaqsSection />
+        {/* <FaqsSection /> */}
         <>
           {/*============================
   PROCESS START

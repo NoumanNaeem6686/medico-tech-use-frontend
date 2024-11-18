@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Link from "next/link";
 import { toast } from "react-toastify";
+import FaqsSection from "../Home/FaqsSection";
 
 const MainContactPage = () => {
   // State variables for form inputs
@@ -164,6 +165,7 @@ const MainContactPage = () => {
                         />
                       </div>
                       <div className="col-xl-12">
+
                         <button type="submit" className="common_btn">
                           {loading ? "Loading..." : "Submit Now"}
                         </button>
@@ -180,6 +182,10 @@ const MainContactPage = () => {
         ==============================*/}
 
         {/* Custom styles for input fields */}
+        <FaqsSection />
+
+
+
         <style jsx>{`
           .custom_input {
             width: 100%;
