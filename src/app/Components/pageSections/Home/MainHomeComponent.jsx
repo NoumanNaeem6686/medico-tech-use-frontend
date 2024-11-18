@@ -5,11 +5,13 @@ import HelpLine from "./HelpLine";
 import Testimonials from "./Testimonials";
 import HomeSlider from "./HomeSlider";
 import Certification from "./Certification";
+import AboutUs from "./About-Us";
 
 const MainHomeComponent = () => {
   return (
     <div>
       <HomeSlider />
+      <AboutUs />
       <About />
       <HelpLine />
       <Certification />
