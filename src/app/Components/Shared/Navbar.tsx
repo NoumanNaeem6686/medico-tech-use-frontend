@@ -60,7 +60,7 @@ function Navbar() {
   return (
     <div>
       <nav className="bg-gray-100 mt-10 w-full">
-        <div className="flex flex-wrap items-center sm:py-0 flex-col sm:flex-row justify-between max-w-screen-xl px-4 mx-auto">
+        <div className="flex flex-wrap items-center pb-6 sm:pb-0 sm:py-0 flex-col sm:flex-row justify-between max-w-screen-xl px-4 mx-auto">
           <Link href="/">
             <div className="max-h-16 overflow-y-hidden flex items-center justify-center">
               <Image src={'/logo.png'} alt="medico" height={120} width={120} />
@@ -109,7 +109,7 @@ function Navbar() {
           </div>
           <div
             className={`${isMenuOpen ? 'block' : 'hidden'
-              } items-center justify-between w-full lg:flex lg:w-auto lg:order-1`}
+              } items-center justify-between  w-full lg:flex lg:w-auto lg:order-1`}
             id="mobile-menu-2"
           >
             <NavigationMenu>
@@ -132,8 +132,8 @@ function Navbar() {
                   >
                     Services
                   </NavigationMenuTrigger>
-                  <NavigationMenuContent className="absolute w-full bg-white lg:w-auto z-50">
-                    <ul className="grid p-4 w-full md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] lg:grid-cols-[.75fr_1fr]">
+                  <NavigationMenuContent className='w-full overflow-x-hidden'>
+                    <ul className="grid p-4 w-[250px] md:w-[400px] lg:w-[500px] xl:w-[600px] 2xl:w-[700px] lg:grid-cols-[.75fr_1fr]">
                       {services.map((service) => (
                         <li key={service.title} className="hover:bg-slate-100 p-3 rounded-xl">
                           <Link href={service.href}>

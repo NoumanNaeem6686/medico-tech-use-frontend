@@ -46,13 +46,16 @@ export default function RootLayout({
           src="https://code.jquery.com/jquery-3.6.0.min.js"
           strategy="beforeInteractive"
         />
-        <Header />
-        <Navbar />
-        <AOSProvider>
-          {children}
-        </AOSProvider>
-        <Footer />
-        <ToastContainer />
+        <div className="max-width-screen overflow-x-hidden">
+
+          <Header />
+          <Navbar />
+          <AOSProvider>
+            {children}
+          </AOSProvider>
+          <Footer />
+          <ToastContainer />
+        </div>
       </body>
     </html>
   );

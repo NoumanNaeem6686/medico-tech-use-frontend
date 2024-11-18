@@ -11,7 +11,7 @@ const Services = () => {
   const services = [
     {
       id: 1,
-      title: "consultation-advisory",
+      title: "Consultation Advisory",
       description: "Navigating healthcare complexities is our specialty. At MTS, we provide actionable strategies to boost your operational efficiency and financial health.",
       details: [
         "Practice Management Consulting: Enhance patient care delivery and operational efficiency.",
@@ -20,7 +20,7 @@ const Services = () => {
         "Strategic Business Development Consulting: Drive sustainable growth with tailored guidance."
       ],
       cta: "Book your Free Consultation today to enhance your practice!",
-      link: "/services/consultation-and-advisory",
+      link: "/services/consultation-advisory",
       imgSrc: "image13.jpg",
     },
     {

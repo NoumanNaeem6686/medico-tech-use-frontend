@@ -110,7 +110,7 @@ const MakeAuditForm = () => {
                           <div className="appoinment_form_input">
                             <input
                               type="text"
-                              placeholder="Patient Name*"
+                              placeholder="Doctor Name*"
                               value={userName}
                               onChange={(e) => setUserName(e.target.value)}
                               required

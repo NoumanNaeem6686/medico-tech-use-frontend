@@ -133,11 +133,11 @@ const MainAboutUs = () => {
                   </div>
 
                   <Link
-                    href="/appointment"
+                    href="/free-audit"
                     className="common_btn"
                     style={{ marginTop: "25px" }}
                   >
-                    Get Appointment
+                    Get Free Audit
                   </Link>
                 </div>
               </div>

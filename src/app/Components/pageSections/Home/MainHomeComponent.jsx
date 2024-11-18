@@ -24,8 +24,7 @@ const MainHomeComponent = () => {
       >
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div
-            class="lg:py-14 lg:px-20 p-10 rounded-2xl flex items-center justify-between flex-col lg:flex-row"
-            style={{ background: "linear-gradient(to right, #050A30, #107ACC);" }}
+            class="lg:py-14 lg:px-20 p-10 rounded-2xl flex items-center justify-between flex-col lg:flex-row bg-gradient-to-r from-[#050A30] to-[#107ACC]"
           >
             <div className="block text-center mb-5 lg:text-left lg:mb-0 sm:max-w-[600px]">
               <h2

@@ -1,5 +1,7 @@
 "use client";
 
+import Link from "next/link";
+
 const GrowthNumbers = () => {
     const stats = [
         {
@@ -53,9 +55,11 @@ const GrowthNumbers = () => {
                         we aim to exceed expectations and set new benchmarks for success in the healthcare industry.
                     </p>
 
-                    <button className="mt-8 px-8  py-3 text-lg bg-primaryColor text-white rounded-2xl ">
-                        JOIN NOW
-                    </button>
+                    <Link href="/free-audit">
+                        <button className="mt-8 px-8  py-3 text-lg bg-primaryColor text-white rounded-2xl ">
+                            JOIN NOW
+                        </button>
+                    </Link>
                 </div>
 
                 <div className="w-full lg:w-6/12 grid grid-cols-1 sm:grid-cols-2 gap-8">
