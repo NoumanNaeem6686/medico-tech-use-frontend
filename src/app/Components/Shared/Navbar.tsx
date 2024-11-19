@@ -60,16 +60,16 @@ function Navbar() {
   return (
     <div>
       <nav className="bg-gray-100 mt-10 w-full">
-        <div className="flex flex-wrap items-center pb-6 sm:pb-0 sm:py-0 flex-col sm:flex-row justify-between max-w-screen-xl px-4 mx-auto">
+        <div className="flex items-center pb-6 sm:pb-0 sm:py-0 flex-row justify-between max-w-screen-xl sm:px-4 mx-auto">
           <Link href="/">
             <div className="max-h-16 overflow-y-hidden flex items-center justify-center">
               <Image src={'/logo.png'} alt="medico" height={120} width={120} />
             </div>
           </Link>
-          <div className="flex items-center gap-x-12 ml-2 mt-2 sm:mt-0 sm:gap-x-0 sm:ml-0 lg:order-2">
+          <div className="flex items-center ml-2 mt-2 sm:mt-0  sm:ml-0 lg:order-2">
             <Link
               href="/free-audit"
-              className="bg-secondaryColor border-2 border-gray-100 text-white transition-all hover:ring-4 hover:ring-secondaryColor font-medium rounded-3xl text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none"
+              className="bg-secondaryColor border-2 border-gray-100 text-white transition-all hover:ring-4 hover:ring-secondaryColor font-medium rounded-3xl text-xs sm:text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 focus:outline-none"
             >
               Get Free Audit
             </Link>

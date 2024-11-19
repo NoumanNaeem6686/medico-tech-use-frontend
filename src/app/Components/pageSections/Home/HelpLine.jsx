@@ -22,13 +22,13 @@ const HelpLine = () => {
                 </p>
               </div>
               <ul className="helpline_iteam">
-                <li>Available 24/7 for your convenience.</li>
-                <li>Dedicated professionals ready to assist you.</li>
-                <li>Quick response to all emergency inquiries.</li>
+                <li>Available 24/7 for your convenience</li>
+                <li>Dedicated professionals ready to assist you</li>
+                <li>Quick response to all emergency inquiries</li>
               </ul>
               <ul className="d-flex flex-wrap helpline_contact">
 
-                <li>
+                <li className="flex flex-col items-start sm:flex-row sm:items-center gap-3 sm:gap-1">
                   <span>
                     <i className="fas fa-envelope" />
                   </span>

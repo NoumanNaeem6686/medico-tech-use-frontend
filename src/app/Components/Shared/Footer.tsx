@@ -25,8 +25,8 @@ const Footer = () => {
                     className="img-fluid w-100"
                   />
                 </Link>
-                <div className="tf_footer_icon d-flex flex-wrap align-items-center">
-                  {/* <ul className="d-flex flex-wrap">
+                <div className="   flex flex-wrap align-items-center">
+                  <ul className="d-flex flex-wrap gap-x-4">
                     <li>
                       <Link href="#">
                         <i className="fab fa-facebook-f" />
@@ -47,8 +47,8 @@ const Footer = () => {
                         <i className="fab fa-linkedin-in" />
                       </Link>
                     </li>
-                  </ul> */}
-
+                  </ul>
+                  {/* 
                   <div className="col-xl-3 col-lg-3 d-md-none d-lg-block">
                     <ul className="flex items-center">
                       <li>
@@ -77,7 +77,7 @@ const Footer = () => {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -91,9 +91,7 @@ const Footer = () => {
                   <li>
                     <Link href="about">about us</Link>
                   </li>
-                  <li>
-                    <Link href="services">our service</Link>
-                  </li>
+
                 </ul>
               </div>
             </div>
@@ -149,7 +147,7 @@ const Footer = () => {
                 <h5>Official Info</h5>
                 <div className="tf_footer_address">
                   <p>
-                    <i className="fas fa-map-marker-alt" /> : 5900 Balcones
+                    <i className="fas fa-map-marker-alt" />5900 Balcones
                     Drive, Suite 18270 Austin, , TX 78731, USA
                   </p>
                   <Link href="#">

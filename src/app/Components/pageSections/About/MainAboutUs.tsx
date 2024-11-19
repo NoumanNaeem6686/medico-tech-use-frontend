@@ -1,6 +1,7 @@
 import React from "react";
 import AboutOurCompany from "./AboutOurCompany";
 import Link from "next/link";
+import WhyUs from "../Home/WhyUs";
 
 const MainAboutUs = () => {
   return (
@@ -38,88 +39,121 @@ const MainAboutUs = () => {
         {/*============================
   ABOUT PAGE START
     ==============================*/}
+
+
+
+        <section className="py-24 relative">
+          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div className="w-full justify-start items-center gap-12 grid lg:grid-cols-2 grid-cols-1">
+              <div
+                className="w-full justify-center items-start gap-6 grid sm:grid-cols-2 grid-cols-1 lg:order-first order-last">
+                <div className="pt-24 lg:justify-center sm:justify-end justify-start items-start gap-2.5 flex">
+                  <img className=" rounded-xl object-cover" src="/image3.jpg" alt="about Us image" />
+                </div>
+                <img className="sm:ml-0 ml-auto rounded-xl object-cover" src="/image1.jpg"
+                  alt="about Us image" />
+              </div>
+              <div className="w-full flex-col justify-center lg:items-start items-center gap-10 inline-flex">
+                <div className="w-full flex-col justify-center items-start gap-8 flex">
+                  <div className="w-full flex-col justify-start lg:items-start items-center gap-3 flex">
+                    <h2
+                      className="text-gray-900 text-4xl font-bold font-manrope leading-normal text-start ">
+                      Welcome to MedicoTech Solutions (MTS)</h2>
+                    <p className="text-gray-500 text-base font-normal leading-relaxed text-start ">
+                      At MedicoTech Solutions (MTS), we are a team of healthcare
+                      IT and billing experts dedicated to revolutionizing the
+                      work of healthcare providers by providing them with
+                      inventive solutions to all their administrative problems.
+                      Our experts bring precision and efficiency to every task.</p>
+                  </div>
+                  <div className="w-full lg:justify-start justify-center items-center sm:gap-10 gap-5 inline-flex">
+                    <div className="flex-col justify-start items-start inline-flex">
+                      <h3 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">33+</h3>
+                      <h6 className="text-gray-500 text-base font-normal leading-relaxed">Years of Experience</h6>
+                    </div>
+                    <div className="flex-col justify-start items-start inline-flex">
+                      <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">125+</h4>
+                      <h6 className="text-gray-500 text-base font-normal leading-relaxed">Successful Projects</h6>
+                    </div>
+                    <div className="flex-col justify-start items-start inline-flex">
+                      <h4 className="text-gray-900 text-4xl font-bold font-manrope leading-normal">52+</h4>
+                      <h6 className="text-gray-500 text-base font-normal leading-relaxed">Happy Clients</h6>
+                    </div>
+                  </div>
+                </div>
+                <Link href={'/free-audit'}>
+                  <button
+                    className="sm:w-fit w-full px-3.5 py-2 bg-primaryColor transition-all duration-700 ease-in-out rounded-lg shadow-[0px_1px_2px_0px_rgba(16,_24,_40,_0.05)] justify-center items-center flex">
+                    <span className="px-1.5 text-white text-sm font-medium leading-6">Get Free Audit</span>
+                  </button>
+                </Link>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+        <section className="py-24 relative">
+          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
+                  <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">                      Our Mission
+                  </h2>
+                  <p className="text-gray-500 text-base font-normal leading-relaxed text-start ">  Our mission is to empower healthcare providers globally by
+                    streamlining critical operational processes, enabling them
+                    to focus solely on delivering outstanding patient care. We
+                    are dedicated to optimizing billing workflows, providing
+                    robust IT support, and offering advanced digital health
+                    solutions.</p>
+                  <p className="text-gray-500 text-base font-normal leading-relaxed text-start ">
+                    By simplifying administrative tasks, we aim to enhance
+                    patient care quality while helping medical practices
+                    achieve optimal financial results.</p>
+                </div>
+
+              </div>
+              <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" src="/image1.jpg" alt="about Us image" />
+            </div>
+          </div>
+        </section>
+        <section className="py-24 relative">
+          <div className="w-full max-w-7xl px-4 md:px-5 lg:px-5 mx-auto">
+            <div className="w-full justify-start items-center gap-8 grid lg:grid-cols-2 grid-cols-1">
+              <img className="lg:mx-0 mx-auto h-full rounded-3xl object-cover" src="/image2.jpg" alt="about Us image" />
+
+              <div className="w-full flex-col justify-start lg:items-start items-center gap-10 inline-flex">
+                <div className="w-full flex-col justify-start lg:items-start items-center gap-4 flex">
+                  <h2 className="text-gray-900 text-4xl font-bold font-manrope leading-normal lg:text-start text-center">
+                    Our Vision
+                  </h2>
+                  <p className="text-gray-500 text-base font-normal leading-relaxed text-start ">  We envision a healthcare ecosystem where technology
+                    effortlessly addresses operational complexities, fostering
+                    a sustainable and impactful environment that benefits
+                    providers and patients.</p>
+                  <p className="text-gray-500 text-base font-normal leading-relaxed text-start ">
+                    We are committed to simplifying revenue cycle management,
+                    reducing denials, boosting revenue, and delivering
+                    exceptional IT support, allowing medical professionals to
+                    focus on patient care.</p>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </section>
+        <WhyUs />
+
         <section className="about_page">
           <div className="about pt_100 xs_pt_70 pb_100 xs_pb_70">
             <div className="container">
               <div className="row">
                 <div className="col-12 wow fadeInRight" data-wow-duration="1s">
-                  <div className="common_heading">
-                    <h2 style={{ fontSize: "2.5rem", marginBottom: "15px" }}>
-                      Welcome to MedicoTech Solutions (MTS)
-                    </h2>
-                    <h5 style={{ fontSize: "1.5rem", marginBottom: "20px" }}>
-                      Your trusted partner in Healthcare Management & Billing
-                      Excellence
-                    </h5>
-                    <p>
-                      At MedicoTech Solutions (MTS), we are a team of healthcare
-                      IT and billing experts dedicated to revolutionizing the
-                      work of healthcare providers by providing them with
-                      inventive solutions to all their administrative problems.
-                      Our experts bring precision and efficiency to every task.
-                    </p>
-                    <p>
-                      Being trusted by numerous healthcare providers, our
-                      company is destined to provide hassle-free medical billing
-                      and medical coding solutions, top-notch IT consultation,
-                      and cutting-edge digital Healthcare Technologies
-                      empowering physicians and other healthcare providers to
-                      focus more on delivering exceptional patient care.
-                    </p>
-                  </div>
 
-                  <div className="common_heading">
-                    <h2 style={{ fontSize: "2.2rem", marginBottom: "15px" }}>
-                      Our Mission
-                    </h2>
-                    <p>
-                      Our mission is to empower healthcare providers globally by
-                      streamlining critical operational processes, enabling them
-                      to focus solely on delivering outstanding patient care. We
-                      are dedicated to optimizing billing workflows, providing
-                      robust IT support, and offering advanced digital health
-                      solutions.
-                    </p>
-                    <p>
-                      By simplifying administrative tasks, we aim to enhance
-                      patient care quality while helping medical practices
-                      achieve optimal financial results.
-                    </p>
-                  </div>
 
-                  <div className="common_heading">
-                    <h2 style={{ fontSize: "2.2rem", marginBottom: "15px" }}>
-                      Our Vision
-                    </h2>
-                    <p>
-                      We envision a healthcare ecosystem where technology
-                      effortlessly addresses operational complexities, fostering
-                      a sustainable and impactful environment that benefits
-                      providers and patients.
-                    </p>
-                    <p>
-                      We are committed to simplifying revenue cycle management,
-                      reducing denials, boosting revenue, and delivering
-                      exceptional IT support, allowing medical professionals to
-                      focus on patient care.
-                    </p>
-                  </div>
 
-                  <div className="common_heading">
-                    <h2 style={{ fontSize: "2.2rem", marginBottom: "15px" }}>
-                      Why Choose Us?
-                    </h2>
-                    <p>
-                      At MedicoTech Solutions (MTS), we promise to be your true
-                      partner in Healthcare Management. We promise to be your
-                      true partner in Healthcare Management, with a team that
-                      deeply understands the unique challenges in the healthcare
-                      industry. We prioritize quality and transparency, ensuring
-                      client satisfaction. Our dedication and efforts in
-                      creating a better healthcare ecosystem make us stand out
-                      from our competitors.
-                    </p>
-                  </div>
+
+
 
                   <div className="common_heading" style={{ marginTop: "20px" }}>
                     <h3 style={{ fontSize: "1.8rem", marginBottom: "15px" }}>
